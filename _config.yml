@@ -1,24 +1,20 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
+# Site Settings
 lang: en-US
 title: rose.karon.se
 email: rose@karon.se
 description: Rose Karon's personal blog
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: "http://rose.karon.se"
+baseurl:
+repository: "rosekaron/rosekaron.github.io"
+url: "https://rose.karon.se"
 author:
   name: Rose Karon
   twitter: rosekaron
@@ -27,6 +23,12 @@ twitter_username: rosekaron
 github_username: rosekaron
 linkedin_username: rosekaron
 logo: "/assets/images/rosekaron.jpg"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+incremental: false
 
 # Build settings
 markdown: kramdown
@@ -38,33 +40,46 @@ plugins:
 feed:
   path: atom.xml
 
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Europe/Stockholm # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+# Jekyll Feed
+feed:
+  path: atom.xml
+
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
 
 # Exclude from processing.
-exclude:
-  - .asset-cache
-  - .bundle
-  - .codeclimate.yml
-  - .editorconfig
-  - .gitattributes
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .scss-lint.yml
-  - CHANGELOG
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - node_modules
-  - Rakefile
-  - README
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Disqus
+# disqus:
+#   shortname: basically-basic-theme
 
 # Front Matter Defaults
 defaults:
