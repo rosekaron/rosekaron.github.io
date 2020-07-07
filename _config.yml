@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+remote_theme: 'mmistakes/jekyll-theme-basically-basic'
 
 # Site Settings
 lang: en-US
@@ -13,16 +13,16 @@ title: rose.karon.se
 email: rose@karon.se
 description: Rose Karon's personal blog
 baseurl:
-repository: "rosekaron/rosekaron.github.io"
-url: "https://rose.karon.se"
+repository: 'rosekaron/rosekaron.github.io'
+url: 'https://rose.karon.se'
 author:
   name: Rose Karon
   twitter: rosekaron
-  picture: "/assets/images/rosekaron.jpg"
+  picture: '/assets/images/rosekaron.jpg'
 twitter_username: rosekaron
 github_username: rosekaron
 linkedin_username: rosekaron
-logo: "/assets/images/rosekaron.jpg"
+logo: '/assets/images/rosekaron.jpg'
 
 # Conversion
 markdown: kramdown
@@ -30,15 +30,16 @@ highlighter: rouge
 lsi: false
 incremental: false
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-feed:
-  path: atom.xml
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Sass/SCSS
 sass:
@@ -85,7 +86,7 @@ paginate_path: /page:num/
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: '_posts'
       type: posts
     values:
       layout: post
