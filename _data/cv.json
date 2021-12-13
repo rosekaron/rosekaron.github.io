@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Rose Karon",
-    "label": "Senior Business Analyst (gaming, edtech, social networking, event tech)",
+    "label": "Senior Product Manager with over 15 years experience in gaming, edtech, social networking, and more",
     "picture": "https://avatars1.githubusercontent.com/u/780526?v=3&s=460",
     "email": "rose@karon.se",
     "website": "https://rose.karon.se",
@@ -25,10 +25,23 @@
   },
   "work": [
     {
+      "company": "Kambi",
+      "position": "Product Owner",
+      "website": "https://www.kambi.com/",
+      "startDate": "2017-08-01",
+      "summary": "Kambi is a leading B2B provider of premium sports betting services to licensed B2C gaming operators.",
+      "highlights": [
+        "Lead a team of engineers in building API support for new sports book product offerings.",
+        "Was responsible for rolling out a new landing page design to licensing operators.",
+        "Designed and lead implementation of back office tools used for regulatory compliance."
+      ]
+    },
+    {
       "company": "SchoolApply",
-      "position": "Freelance Business Analyst/ Product Manager",
+      "position": "Product Manager",
       "website": "https://www.schoolapply.com/",
       "startDate": "2017-07-10",
+      "endDate": "2018-05-01",
       "summary": "SchoolApply help students from anywhere in the world connect with schools that best match their needs and potential.",
       "highlights": [
         "Designed and documented a platform that helps content managers manage school data.",
