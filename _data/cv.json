@@ -25,10 +25,22 @@
   },
   "work": [
     {
+      "company": "Efficy",
+      "position": "Product Owner",
+      "website": "https://www.efficy.com/",
+      "startDate": "2022-06-01",
+      "summary": "Efficy is a software company that provides highly customizable CRM solutions for businesses of all sizes.",
+      "highlights": [
+        "End-to-end delivery of four integrations and counting.",
+        "Develeped new marketing automation features that impact millions of customers around the world."
+      ]
+    },    
+    {
       "company": "Kambi",
       "position": "Product Owner",
       "website": "https://www.kambi.com/",
       "startDate": "2017-08-01",
+      "endDate": "2022-05-01",
       "summary": "Kambi is a leading B2B provider of premium sports betting services to licensed B2C gaming operators.",
       "highlights": [
         "Led a team of engineers in building API support for new sports book product offerings.",
