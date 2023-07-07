@@ -1,6 +1,8 @@
 {% if cv.basics.summary %}
   <div class="summary">
-    {{ cv.basics.summary | markdownify }}
+    {{ cv.basics.summary | split: "
+
+" | first | markdownify }}
   </div>
 {% endif %}
 
