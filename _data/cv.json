@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Rose Karon",
-    "label": "Senior Product Owner/ Manager with over a decade of product development experience in multiple domains",
+    "label": "Senior Product Owner/Manager with multi domain expertise and global experience",
     "picture": "https://avatars1.githubusercontent.com/u/780526?v=3&s=460",
     "email": "rose@karon.se",
     "website": "https://rose.karon.se",
-    "summary": "With over 15 years of experience working in various countries such as the Philippines, Singapore, China, and Sweden, I have acquired extensive knowledge in gathering business requirements and converting them into effective systems/solutions for complex industries such as gaming, e-learning, social networking, and travel education.\n\nI possess a blend of empathy and passion, which allows me to effortlessly bridge the gap between business and technology. I am an advocate for agile methodologies and have successfully served as a Product Owner and Scrum Master in agile teams.",
+    "summary": "Having amassed more than 15 years of international experience across multiple countries including the Philippines, Singapore, China, and Sweden, I have developed a deep understanding of gathering business requirements and translating them into innovative systems/solutions for intricate industries such as gaming, e-learning, social networking, and marketing automation.\n\nMy unique combination of empathy and passion enables me to seamlessly bridge the divide between business and technology.\n\nI am a fervent advocate of agile methodologies and have excelled in roles as a Product Owner and Scrum Master, leading agile teams to success.",
     "location": {
       "city": "Stockholm",
       "countryCode": "SE"
@@ -29,23 +29,23 @@
       "position": "Product Owner",
       "website": "https://www.efficy.com/",
       "startDate": "2022-06-01",
-      "summary": "Efficy is a software company that provides highly customizable CRM solutions for businesses of all sizes.",
+      "summary": "Efficy is a dynamic software company specializing in delivering tailor-made CRM solutions that cater to the diverse needs of businesses, regardless of their scale or magnitude.",
       "highlights": [
-        "End-to-end delivery of multiple CRM integrations.",
-        "Developed new marketing automation features that impact millions of customers around the world."
+        "Leading end-to-end delivery of multiple CRM integrations.",
+        "Developing impactful marketing automation features reaching millions of customers globally."
       ]
-    },    
+    },
     {
       "company": "Kambi",
       "position": "Product Owner",
       "website": "https://www.kambi.com/",
       "startDate": "2017-08-01",
       "endDate": "2022-05-01",
-      "summary": "Kambi is a leading B2B provider of premium sports betting services to licensed B2C gaming operators.",
+      "summary": "Kambi stands as a prominent B2B provider, offering top-tier sports betting services exclusively to licensed B2C gaming operators.",
       "highlights": [
-        "Led a team of engineers in building API support for new sports book product offerings.",
-        "Was responsible for rolling out a new landing page design to licensing operators.",
-        "Designed and led implementation of back office tools used for regulatory compliance."
+        "Led a team of engineers who built and maintained APIs that support famous sportsbook brands, driving business growth.",
+        "Orchestrated a successful rollout of a redesigned landing page, enhancing user experience.",
+        "Designed and implemented back-office tools for regulatory compliance, ensuring compliance standards."
       ]
     },
     {
@@ -54,22 +54,21 @@
       "website": "https://www.schoolapply.com/",
       "startDate": "2017-07-10",
       "endDate": "2018-05-01",
-      "summary": "SchoolApply help students from anywhere in the world connect with schools that best match their needs and potential.",
+      "summary": "SchoolApply facilitates global connections between students and educational institutions, enabling students from any corner of the world to discover and connect with schools that align perfectly with their unique needs and potential.",
       "highlights": [
-        "Designed and documented a platform that helps content managers manage school data.",
-        "Managed a remote team of engineers.",
-        "Responsible for delivering the business requirements specifications for an agency system."
+        "Built a proof of concept for a platform for efficient management of school data, optimizing workflows.",
+        "Managed a remote team of engineers",
+        "Delivered business requirements for an agency system, facilitating smooth operations."
       ]
     },
     {
       "company": "SWK Industries",
       "position": "Co-founder",
       "startDate": "2016-02-01",
-      "summary": "SWK Industries is a software development start up that specializes in building platforms for the event technology industry",
+      "summary": "SWK Industries is an innovative software development startup that focuses on crafting cutting-edge platforms specifically designed for the event technology industry.",
       "highlights": [
-        "Managed a team of remote engineers.",
-        "Authored business specifications for a ticketing system for the event tech industry",
-        "Authored business specifications for a en event management platform."
+        "Directed a remote engineering team, driving product development in the event tech industry..",
+        "Authored business specifications for event tech solutions, enabling seamless platform functionality."
       ]
     },
     {
@@ -78,11 +77,11 @@
       "website": "http://www.ef.com/",
       "startDate": "2015-05-01",
       "endDate": "2015-12-01",
-      "summary": "EF is one of the largest educational institutions in the world with over 42,000 employees distributed in 112 different countries. Since 1988, EF has been partnering with the Olympics committee in providing language training for chosen host countries. It also partners with the Clinton foundation in awarding the Hult Prize, a global competition for young social entrepreneurs, typically themed after finding solutions to global problems. At EF, I was lucky to be given a unique opportunity to hand-pick my projects so during my three and a half years tenure, I was able to help five different teams.",
+      "summary": "EF, one of the world's largest educational institutions, boasts a global presence with over 42,000 employees spread across 112 countries. Since 1988, EF has forged a partnership with the Olympics committee, delivering language training to selected host countries. Additionally, EF collaborates with the Clinton Foundation to present the Hult Prize, a renowned global competition empowering young social entrepreneurs to tackle worldwide challenges. During my rewarding three and a half years at EF, I had the privilege of hand-picking my projects, which allowed me to contribute to the success of five diverse teams.",
       "highlights": [
-        "Led a team of engineers in creating a proof of concept for using AEM as a CMS platform for delivering dynamic content on the web and on mobile. AEM is commonly used for delivering static content but we extended its use which resulted to cost savings.",
-        "Initiated and led a team of engineers into building monitoring tools using the ELK (elasticsearch, logstash and kibana) stack. This reduced the turnaround time for fixing live bugs and even allowed us to proactively monitor our physical schools allowing us to solve issues before it got reported.",
-        "Led the adoption of OKRs (Objectives and Key Results) as a company-wide goal setting tool"
+        "Built a proof of concept for optimizing the use of AEM as a CMS platform, resulting in cost savings and improved content delivery.",
+        "Developed ELK-based monitoring tools, proactively resolving issues and ensuring optimal performance.",
+        "Implemented OKRs as a goal-setting tool, fostering organizational alignment and driving success."
       ]
     },
     {
@@ -91,11 +90,10 @@
       "website": "http://www.ef.com/",
       "startDate": "2012-02-01",
       "endDate": "2015-04-30",
-      "summary": "EF is one of the largest educational institutions in the world with over 42,000 employees distributed in 112 different countries. Since 1988, EF has been partnering with the Olympics committee in providing language training for chosen host countries. It also partners with the Clinton foundation in awarding the Hult Prize, a global competition for young social entrepreneurs, typically themed after finding solutions to global problems. At EF, I was lucky to be given a unique opportunity to hand-pick my projects so during my three and a half years tenure, I was able to help five different teams.",
+      "summary": "EF, a global educational powerhouse, operates on a grand scale with a workforce of over 42,000 professionals spanning across 112 countries. Since 1988, EF has formed a strategic alliance with the Olympics committee, delivering language training to host countries. Additionally, EF collaborates with the Clinton Foundation to present the Hult Prize, a prestigious global competition centered around empowering young social entrepreneurs to devise solutions for pressing global issues. During my tenure at EF, which I consider fortunate, I was granted the exceptional privilege of selecting and contributing to five distinct projects, showcasing my diverse skill set and passion for teamwork.",
       "highlights": [
-        "Led a team of engineers in launching the latest version of EF's language learning software to millions of users all over the world, including 1 million staff and volunteers in the current Rio 2016 olympics.",
-        "Collaborated with the SVP of Product and VP of User Experience into starting a bi-monthly Product Council. What I started set the stage for a better working relationship between us and our stakeholders and I am proud to say that it is still being actively adopted across the company today.",
-        "Led the adoption of OKRs (Objectives and Key Results) as a goal setting tool for EF Labs. On top of championing the adoption of OKRs, I also convinced upper management about the importance of having a quarterly all hands meeting where we review and celebrate the scores of our OKRs which resulted to better alignment and transparency within the organization."
+        "Led a team of engineers in launching the latest version of EF's language learning software to millions of users all over the world, including 1 million staff and volunteers in the Rio 2016 olympics.",
+        "Launched EF's language learning software to millions globally, supporting language education initiatives."
       ]
     },
     {
@@ -103,11 +101,11 @@
       "position": "Product Manager",
       "startDate": "2009-05-01",
       "endDate": "2012-01-15",
-      "summary": "MyCube is a digital life management tool for exchanging, sharing and selling content founded by Swedish entrepreneur Johan Stael von Holstein. At MyCube, I was instrumental for delivering the MVP version of the product on web and after launch I transitioned to mobile product manager. Collaborating with a UX design consultant we delivered the initial signed off wireframes of the mobile product. I proceeded to work on the initial design for the MVP of a member service back office before I decided to move on to Shanghai.",
+      "summary": "MyCube, a revolutionary digital life management tool developed by Swedish entrepreneur Johan Stael von Holstein, offers a seamless platform for content exchange, sharing, and selling. During my tenure at MyCube, I played a pivotal role in delivering the Minimum Viable Product (MVP) on the web platform. Following a successful launch, I transitioned to the role of mobile product manager. Working closely with a UX design consultant, we crafted and delivered the approved wireframes for the mobile product. Additionally, I contributed to the initial design of the MVP for a member service back office before embarking on a new journey in Shanghai.",
       "highlights": [
-        "Collaborated with a user experience consultant into conceptualizing and reaching sign off on the initial design of the MyCube mobile platform.",
-        "Documented and delivered the initial version of the Mycube web platform.",
-        "Documented the initial implementation of what would have been the Mycube member services back office."
+        "Conceptualized and delivered the initial design of the MyCube mobile platform, empowering users to manage their digital lives.",
+        "Documented and delivered the MyCube web platform, providing a seamless user experience for content exchange and sharing.",
+        "Designed the MVP version of the member services back office, optimizing operational efficiency for the digital content industry."
       ]
     },
     {
@@ -115,10 +113,10 @@
       "position": "Project Manager",
       "startDate": "2009-01-01",
       "endDate": "2009-05-30",
-      "summary": "Laron Pte Ltd., is an expert IT consultant company specialized in online gaming. After five months of working for Laron, being a contractor for hire at Mycube, Mycube decided to buy Laron and it's entire team.",
+      "summary": "Laron Pte Ltd. is a distinguished IT consulting firm that specializes in the realm of online gaming. Following my five-month tenure as a contractor at MyCube, an exciting turn of events unfolded as MyCube recognized the immense value in Laron's expertise and made the decision to acquire both the company and its entire team.",
       "highlights": [
         "Implemented documentation standards.",
-        "Headed cross functional teams while managing projects for an IT consulting company that specialized in online gaming."
+        "Headed cross-functional teams for an IT consulting company specialized in online gaming."
       ]
     },
     {
@@ -126,11 +124,10 @@
       "position": "Business Systems Analyst",
       "startDate": "2006-04-01",
       "endDate": "2008-12-30",
-      "summary": "Strategem Technologies Pte. Ltd. is a Singapore based software development company that is part of the MANSION group (operators of www.mansion.com, www.mansion88.com and www.casino.com as well as the land based casino Les Ambassadeurs in London). The MANSION group employs over 300+ employees all over the world with offices in Singapore, Gibraltar, Spain and the Philippines.",
+      "summary": "Strategem Technologies Pte. Ltd., headquartered in Singapore, stands as a prominent software development company within the esteemed MANSION group. The MANSION group, known for operating renowned platforms such as www.mansion.com, www.mansion88.com, and www.casino.com, alongside the esteemed Les Ambassadeurs land-based casino in London, boasts a global workforce exceeding 300 employees. With offices strategically located in Singapore, Gibraltar, Spain, and the Philippines, the MANSION group continues to shape the industry landscape with its diverse range of offerings.",
       "highlights": [
-        "Worked on a powerful marketing back office tool (MANSION Promoter Program) that involved an elaborate affiliate marketing program as well as a player loyalty program.",
-        "Achieved buy-in from stakeholders on how to implement a prepaid card payment system.",
-        "Excelled as a Lead Business Analyst for various initiatives of a Singapore-based software development company (part of the MANSION group)."
+        "Authored business requirement specifications used for building a marketing back office tool, the MANSION Promoter Program, encompassing affiliate marketing and player loyalty programs.",
+        "Created the vision and business requirement specifications for implementing a prepaid card payment system."
       ]
     },
     {
@@ -139,9 +136,9 @@
       "website": "http://www.bayviewtechnology.com/",
       "startDate": "2005-04-01",
       "endDate": "2006-03-01",
-      "summary": "Bayview Technologies Inc. is an business process outsourcing company that provides customer support, back office and information technology support services to foreign companies. Bayview was established in 2002 and maintains offices in Hong Kong, Taiwan, Gibraltar and has regional presence throughout Asia and Europe.",
+      "summary": "Bayview Technologies Inc. operates as a leading business process outsourcing company, catering to foreign enterprises by delivering a comprehensive suite of services including customer support, back-office operations, and information technology support. Since its establishment in 2002, Bayview has expanded its reach with offices in Hong Kong, Taiwan, and Gibraltar, while establishing a robust regional presence across Asia and Europe.",
       "highlights": [
-        "Assisted and led the launch of various casinos in the Philippines that made use of Playtech's casino software.",
+        "Assisted and led the launch of casinos in the Philippines utilizing Playtech's casino software.",
         "Acted as an account manager for Playtech licensees in Asia"
       ]
     },
