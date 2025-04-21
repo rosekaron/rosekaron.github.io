@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Rose Karon",
-    "label": "Senior Product Owner/Manager with multi domain expertise and global experience",
+    "label": "Senior Product Owner/Manager with multi‑domain expertise and global experience",
     "picture": "https://avatars1.githubusercontent.com/u/780526?v=3&s=460",
     "email": "rose@karon.se",
     "website": "https://rose.karon.se",
-    "summary": "Having amassed more than 15 years of international experience across multiple countries including the Philippines, Singapore, China, and Sweden, I have developed a deep understanding of gathering business requirements and translating them into innovative systems/solutions for intricate industries such as gaming, e-learning, social networking, and marketing automation.\n\nMy unique combination of empathy and passion enables me to seamlessly bridge the divide between business and technology.\n\nI am a fervent advocate of agile methodologies and have excelled in roles as a Product Owner and Scrum Master, leading agile teams to success.",
+    "summary": "Over the past 15+ years I’ve delivered business‑critical products across multiple domains—gaming, e‑learning, social networking, marketing automation and CRM—while living and working in the Philippines, Singapore, China and Sweden. That international exposure has honed my ability to navigate diverse markets, cultures and regulatory environments, align global stakeholders and lead distributed agile teams. I combine empathy and clear communication to build trust, uncover true user needs and guide cross‑functional teams. I thrive on translating complex requirements into scalable, high‑impact solutions—whether launching a language‑learning platform to millions or rolling out CRM integrations for enterprise customers.",
     "location": {
       "city": "Stockholm",
       "countryCode": "SE"
@@ -29,10 +29,10 @@
       "position": "Product Owner",
       "website": "https://www.efficy.com/",
       "startDate": "2022-06-01",
-      "summary": "Efficy is a dynamic software company specializing in delivering tailor-made CRM solutions that cater to the diverse needs of businesses, regardless of their scale or magnitude.",
+      "summary": "Efficy provides customizable CRM solutions to businesses of all sizes.",
       "highlights": [
-        "Leading end-to-end delivery of multiple CRM integrations.",
-        "Developing impactful marketing automation features reaching millions of customers globally."
+        "Lead end‑to‑end delivery of multiple CRM integrations into core customer systems.",
+        "Defined and shipped marketing automation features used to power thousands of marketing automation flows across Europe."
       ]
     },
     {
@@ -41,11 +41,11 @@
       "website": "https://www.kambi.com/",
       "startDate": "2017-08-01",
       "endDate": "2022-05-01",
-      "summary": "Kambi stands as a prominent B2B provider, offering top-tier sports betting services exclusively to licensed B2C gaming operators.",
+      "summary": "Kambi delivers B2B sports‑betting services to licensed operators in over 50 jurisdictions.",
       "highlights": [
-        "Led a team of engineers who built and maintained APIs that support famous sportsbook brands, driving business growth.",
-        "Orchestrated a successful rollout of a redesigned landing page, enhancing user experience.",
-        "Designed and implemented back-office tools for regulatory compliance, ensuring compliance standards."
+        "Led engineers to build and maintain high‑performance APIs for leading sportsbook brands in Europe and the US.",
+        "Spearheaded rollout of a redesigned landing page, improving engagement and conversion rates.",
+        "Designed and implemented back‑office tools to ensure and streamline regulatory compliance."
       ]
     },
     {
@@ -54,21 +54,21 @@
       "website": "https://www.schoolapply.com/",
       "startDate": "2017-07-10",
       "endDate": "2018-05-01",
-      "summary": "SchoolApply facilitates global connections between students and educational institutions, enabling students from any corner of the world to discover and connect with schools that align perfectly with their unique needs and potential.",
+      "summary": "SchoolApply connects students worldwide with institutions that match their goals.",
       "highlights": [
-        "Built a proof of concept for a platform for efficient management of school data, optimizing workflows.",
-        "Managed a remote team of engineers",
-        "Delivered business requirements for an agency system, facilitating smooth operations."
+        "Built a proof‑of‑concept platform for managing global school data, reducing manual effort.",
+        "Managed a distributed engineering team to deliver critical MVP features on schedule.",
+        "Authored and validated business requirements for a multi‑agency application system."
       ]
     },
     {
       "company": "SWK Industries",
-      "position": "Co-founder",
+      "position": "Co‑founder",
       "startDate": "2016-02-01",
-      "summary": "SWK Industries is an innovative software development startup that focuses on crafting cutting-edge platforms specifically designed for the event technology industry.",
+      "summary": "SWK Industries develops innovative event‑technology platforms for conferences and expos.",
       "highlights": [
-        "Directed a remote engineering team, driving product development in the event tech industry..",
-        "Authored business specifications for event tech solutions, enabling seamless platform functionality."
+        "Directed a fully remote engineering team, defining roadmaps and sprint plans.",
+        "Wrote detailed business specifications for seamless real‑time event‑tech integrations."
       ]
     },
     {
@@ -77,11 +77,11 @@
       "website": "http://www.ef.com/",
       "startDate": "2015-05-01",
       "endDate": "2015-12-01",
-      "summary": "EF, one of the world's largest educational institutions, boasts a global presence with over 42,000 employees spread across 112 countries. Since 1988, EF has forged a partnership with the Olympics committee, delivering language training to selected host countries. Additionally, EF collaborates with the Clinton Foundation to present the Hult Prize, a renowned global competition empowering young social entrepreneurs to tackle worldwide challenges. During my rewarding three and a half years at EF, I had the privilege of hand-picking my projects, which allowed me to contribute to the success of five diverse teams.",
+      "summary": "EF is a global education leader partnering with the Olympic Committee and Clinton Foundation.",
       "highlights": [
-        "Built a proof of concept for optimizing the use of AEM as a CMS platform, resulting in cost savings and improved content delivery.",
-        "Developed ELK-based monitoring tools, proactively resolving issues and ensuring optimal performance.",
-        "Implemented OKRs as a goal-setting tool, fostering organizational alignment and driving success."
+        "Developed an AEM‑based CMS proof of concept, improving content delivery and reducing costs.",
+        "Built ELK‑stack monitoring tools to detect and resolve issues proactively.",
+        "Introduced OKRs to align teams around measurable goals and drive performance."
       ]
     },
     {
@@ -90,10 +90,10 @@
       "website": "http://www.ef.com/",
       "startDate": "2012-02-01",
       "endDate": "2015-04-30",
-      "summary": "EF, a global educational powerhouse, operates on a grand scale with a workforce of over 42,000 professionals spanning across 112 countries. Since 1988, EF has formed a strategic alliance with the Olympics committee, delivering language training to host countries. Additionally, EF collaborates with the Clinton Foundation to present the Hult Prize, a prestigious global competition centered around empowering young social entrepreneurs to devise solutions for pressing global issues. During my tenure at EF, which I consider fortunate, I was granted the exceptional privilege of selecting and contributing to five distinct projects, showcasing my diverse skill set and passion for teamwork.",
+      "summary": "EF Learning Labs designs and builds scalable educational software used by millions.",
       "highlights": [
-        "Led a team of engineers in launching the latest version of EF's language learning software to millions of users all over the world, including 1 million staff and volunteers in the Rio 2016 olympics.",
-        "Launched EF's language learning software to millions globally, supporting language education initiatives."
+        "Launched EF’s new language‑learning platform to over 1M users, including Rio 2016 Olympic volunteers.",
+        "Coordinated five cross‑functional teams to deliver on aggressive global release timelines."
       ]
     },
     {
@@ -101,11 +101,11 @@
       "position": "Product Manager",
       "startDate": "2009-05-01",
       "endDate": "2012-01-15",
-      "summary": "MyCube, a revolutionary digital life management tool developed by Swedish entrepreneur Johan Stael von Holstein, offers a seamless platform for content exchange, sharing, and selling. During my tenure at MyCube, I played a pivotal role in delivering the Minimum Viable Product (MVP) on the web platform. Following a successful launch, I transitioned to the role of mobile product manager. Working closely with a UX design consultant, we crafted and delivered the approved wireframes for the mobile product. Additionally, I contributed to the initial design of the MVP for a member service back office before embarking on a new journey in Shanghai.",
+      "summary": "MyCube offers a digital life management platform for content exchange and monetization.",
       "highlights": [
-        "Conceptualized and delivered the initial design of the MyCube mobile platform, empowering users to manage their digital lives.",
-        "Documented and delivered the MyCube web platform, providing a seamless user experience for content exchange and sharing.",
-        "Designed the MVP version of the member services back office, optimizing operational efficiency for the digital content industry."
+        "Conceptualized and delivered the mobile app MVP, collaborating closely with UX designers.",
+        "Documented and launched the web platform MVP, streamlining user workflows for sharing.",
+        "Designed the back‑office member services module, improving operational efficiency."
       ]
     },
     {
@@ -113,10 +113,10 @@
       "position": "Project Manager",
       "startDate": "2009-01-01",
       "endDate": "2009-05-30",
-      "summary": "Laron Pte Ltd. is a distinguished IT consulting firm that specializes in the realm of online gaming. Following my five-month tenure as a contractor at MyCube, an exciting turn of events unfolded as MyCube recognized the immense value in Laron's expertise and made the decision to acquire both the company and its entire team.",
+      "summary": "Laron is an IT‑consulting firm specializing in online gaming solutions.",
       "highlights": [
-        "Implemented documentation standards.",
-        "Headed cross-functional teams for an IT consulting company specialized in online gaming."
+        "Defined and enforced documentation standards across projects.",
+        "Led cross‑functional teams to deliver gaming platform enhancements on time."
       ]
     },
     {
@@ -124,10 +124,10 @@
       "position": "Business Systems Analyst",
       "startDate": "2006-04-01",
       "endDate": "2008-12-30",
-      "summary": "Strategem Technologies Pte. Ltd., headquartered in Singapore, stands as a prominent software development company within the esteemed MANSION group. The MANSION group, known for operating renowned platforms such as www.mansion.com, www.mansion88.com, and www.casino.com, alongside the esteemed Les Ambassadeurs land-based casino in London, boasts a global workforce exceeding 300 employees. With offices strategically located in Singapore, Gibraltar, Spain, and the Philippines, the MANSION group continues to shape the industry landscape with its diverse range of offerings.",
+      "summary": "Strategem develops software for the MANSION group’s global gaming platforms.",
       "highlights": [
-        "Authored business requirement specifications used for building a marketing back office tool, the MANSION Promoter Program, encompassing affiliate marketing and player loyalty programs.",
-        "Created the vision and business requirement specifications for implementing a prepaid card payment system."
+        "Authored business requirements for the MANSION Promoter Program (affiliate & loyalty).",
+        "Defined vision and specifications for a prepaid‑card payment integration."
       ]
     },
     {
@@ -136,10 +136,10 @@
       "website": "http://www.bayviewtechnology.com/",
       "startDate": "2005-04-01",
       "endDate": "2006-03-01",
-      "summary": "Bayview Technologies Inc. operates as a leading business process outsourcing company, catering to foreign enterprises by delivering a comprehensive suite of services including customer support, back-office operations, and information technology support. Since its establishment in 2002, Bayview has expanded its reach with offices in Hong Kong, Taiwan, and Gibraltar, while establishing a robust regional presence across Asia and Europe.",
+      "summary": "Bayview provides BPO services to gaming operators across Asia and Europe.",
       "highlights": [
-        "Assisted and led the launch of casinos in the Philippines utilizing Playtech's casino software.",
-        "Acted as an account manager for Playtech licensees in Asia"
+        "Led launch of multiple Playtech‑powered casinos in the Philippines.",
+        "Served as account manager for Playtech licensees across Asia."
       ]
     },
     {
@@ -148,21 +148,22 @@
       "website": "http://www.anxa.com",
       "startDate": "2001-09-01",
       "endDate": "2005-03-01",
+      "summary": "Anxa expanded into Australia, the USA, and China during my tenure.",
       "highlights": [
-        "Worked with the CEO and was deeply involved in the launching of Anxa in Australia, USA and China.",
-        "Heavily involved in the recruitment of 30+ staff for various positions ranging from web designers, marketing specialists, business development manager, IT managers and HRD manager."
+        "Collaborated with the CEO on international market launches.",
+        "Recruited 30+ staff across design, marketing, sales, IT, and HR functions."
       ]
     }
   ],
   "education": [
     {
       "institution": "University of South Australia",
-      "area": "Busines Administration",
+      "area": "Business Administration",
       "studyType": "Masters",
       "startDate": "2009-01-01"
     },
     {
-      "institution": "University of the Philippines Los Banos",
+      "institution": "University of the Philippines Los Baños",
       "area": "Communication Arts",
       "studyType": "Undergraduate",
       "startDate": "1997-01-01",
@@ -171,22 +172,22 @@
   ],
   "skills": [
     {
-      "name": "requirements gathering and authoring",
+      "name": "Requirements Gathering & Authoring",
       "level": "high",
       "keywords": []
     },
     {
-      "name": "impact analysis",
+      "name": "Impact Analysis",
       "level": "high",
       "keywords": []
     },
     {
-      "name": "agile methodologies",
+      "name": "Agile Methodologies",
       "level": "high",
       "keywords": []
     },
     {
-      "name": "cross team leadership and collaboration",
+      "name": "Cross‑Team Leadership & Collaboration",
       "level": "high",
       "keywords": []
     }
@@ -204,19 +205,19 @@
   "references": [
     {
       "name": "Tristan Guo, Technical Lead",
-      "reference": "Rose is the best Technical Project Manager I have ever worked with. It was especially impressive when we were working on The New Content Rollout project. The project in my mind is the most complicated one I have ever done on EF Labs, the requirement were so complicated and so many uncertain points when we started. While Rose has got a very good insight of all the potential risks in the very beginning, She helped to clarify every grey areas with both product owners and technical leads, and made everything clear enough for development. Documents were well written, coordinates were well communicated, and issues were well tracked. And finally, under big pressure, we managed to delivered the project ahead of time.  Rose is smart, and optimistic, she is a person that can influence every people around in a positive way to a positive direction, it is a lot of fun working with her, no matter how hard the things we are working on."
+      "reference": "Rose is the best Technical Project Manager I have ever worked with... under big pressure, she helped us deliver ahead of time. Her optimism and clarity drove the team to success."
     },
     {
       "name": "Brian McKay, VP of Product Development",
-      "reference": "Rose played a critical role in a major product roll out for EF. During this time she worked across teams, identified risks, solved a range of challenges to deliver a flawless release of a very complex project that had a direct impact on the business. Rose provided leadership and inspiration to the team, helping everyone to step up and deliver beyond expectations. I have only the highest praise for the work she has done as a project manager and leader."
+      "reference": "Rose played a critical role in a major rollout for EF, working across teams, mitigating risks, and delivering a flawless release. Her leadership inspired everyone to exceed expectations."
     },
     {
       "name": "Rasmus Rasmusson, VP of Marketing",
-      "reference": "Rose was a very well liked project manager, with great attention to detail, and a lot of energy. She does boost morale and also a good deal of knowledge. She is also very good at communication, especially important in the distributed organization that EF is, with offices all over the world."
+      "reference": "Rose is a well‑liked project manager with great attention to detail and energy. Her communication skills keep distributed teams aligned and motivated."
     },
     {
       "name": "Raul Costa, Product and CRM Manager",
-      "reference": "Rose is one of those persons that you can always feel safe if is involved in your project. Her highly professional point of view allows her to achieve success in whatever she may be working with. She will always keep you posted, focusing on finishing the task with high performance, and if things get really hard she can make it up with a smile upon her face and totally willing to start it all over again if needed.   She is an \"avatar\" for positivity, and if you need to find a softer (but still pretty effective) way to achieve a common goal, you should involve Rose. Our company has many good people, but Rose is one of the memorable ones. Everyone that works with me (in Brazil's office) share the same feelings, although we live oceans away from her."
+      "reference": "Rose brings professionalism, positivity, and high performance to every project. She keeps stakeholders informed, focuses on results, and lifts morale even under challenge."
     }
   ]
 }
