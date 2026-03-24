@@ -72,4 +72,4 @@ As a PM I've written that brief a hundred times. It took building the wrong vers
 
 ---
 
-*[← Part 4: The Things I Built and Then Took Out](/blog/the-things-i-built-and-then-took-out/) · [Start from the beginning →](/blog/the-phone-calls/)*
+*[← Part 4: The Things I Built and Then Took Out](/blog/the-things-i-built-and-then-took-out/) · [Part 6: You Don't Have to Figure It Out Alone →](/blog/you-dont-have-to-figure-it-out-alone/)*
