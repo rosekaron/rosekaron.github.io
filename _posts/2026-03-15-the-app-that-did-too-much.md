@@ -6,6 +6,10 @@ categories: blog
 excerpt: "Once I started building properly, things moved quickly. Possibly too quickly. I was prompting Claude to generate code while making feature decisions, and the decisions came fast."
 ---
 
+*Part 3 of 5 — **Building an app with Claude: a non-developer's journey***
+
+---
+
 Once I started building properly, things moved quickly. Possibly too quickly.
 
 I was prompting Claude to generate code while making feature decisions, and the decisions came fast because each one felt logical in the moment. Assistants should be able to claim open shifts themselves — that would reduce the back and forth. Each shift should have an activity tag so there'd be detailed records if anyone ever needed them. There should be a whole tab just for managing hours, with sub-sections for the schedule, the reports, and blocked-off time.
@@ -35,3 +39,7 @@ The moment of reckoning arrived slowly. I kept noticing that when I thought abou
 I wrote down the minimum the app needed to do: record that an assistant worked certain hours on a certain day. Approve those hours. Generate the forms. That was the whole list.
 
 Everything else was a guess about a version of the problem I didn't have yet. I started cutting. That turned out to be its own education.
+
+---
+
+*[← Part 2: Weeks of Work, Wrong Direction](/blog/weeks-of-work-wrong-direction/) · [Part 4: The Things I Built and Then Took Out →](/blog/the-things-i-built-and-then-took-out/)*

@@ -6,6 +6,10 @@ categories: blog
 excerpt: "There's a version of this app that does a lot of things I'll never use. Removing things felt different to how I expected. It mostly felt like clarity."
 ---
 
+*Part 4 of 5 — **Building an app with Claude: a non-developer's journey***
+
+---
+
 There's a version of this app that does a lot of things I'll never use.
 
 Assistants could browse a list of available shifts and claim the ones they wanted. Each hour logged could be tagged with an activity type — bathing, eating, transport, physiotherapy. There was a whole tab in the navigation called Hours that had its own calendar view, its own reports section, its own way of managing blocked time. All of it built, none of it essential.
@@ -23,3 +27,7 @@ There was one conversation with Claude that I keep coming back to. I asked wheth
 That small thing changed how I thought about cutting. You can remove something and leave the door open. The cost of trying is low.
 
 What stuck with me was the test I started applying after that: does this help someone get the monthly FK forms submitted correctly? If not, it's not for now. Maybe later, maybe never, but not now. That question cleared out more half-finished ideas than I expected. I'm glad it did.
+
+---
+
+*[← Part 3: The App That Did Too Much](/blog/the-app-that-did-too-much/) · [Part 5: I Didn't Know the Password to My Own App →](/blog/i-didnt-know-the-password-to-my-own-app/)*

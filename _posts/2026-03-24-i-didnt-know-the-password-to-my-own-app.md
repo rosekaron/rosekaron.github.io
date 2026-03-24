@@ -6,6 +6,10 @@ categories: blog
 excerpt: "Several months into building this, I sat down to test whether the whole thing actually worked end to end. The first step was logging in. I typed in what I thought the password was. Wrong."
 ---
 
+*Part 5 of 5 — **Building an app with Claude: a non-developer's journey***
+
+---
+
 Several months into building this, I sat down to test whether the whole thing actually worked end to end.
 
 The first step was logging in. I typed in what I thought the password was. Wrong. Tried a variation. Wrong. Tried the version I use when I'm trying to be more careful. Wrong.
@@ -69,3 +73,7 @@ The new one has three things. A seven-day grid showing which assistant is workin
 That's it. I didn't arrive at that design by thinking about good dashboard design. I arrived at it by finally understanding the process well enough to know what mattered.
 
 Next up: testing everything properly against a real checklist of user stories, and then building the assistant-facing side of the app. That's the half I've been putting off. The guardian side is nearly solid. Time to build for the people actually doing the work.
+
+---
+
+*[← Part 4: The Things I Built and Then Took Out](/blog/the-things-i-built-and-then-took-out/) · [Start from the beginning →](/blog/the-phone-calls/)*

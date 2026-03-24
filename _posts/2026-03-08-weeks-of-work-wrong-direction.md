@@ -6,6 +6,10 @@ categories: blog
 excerpt: "The first thing I did was start designing screens. I had a clear picture in my head of what the app should look like. I went deep into this. Then my husband looked at it."
 ---
 
+*Part 2 of 5 — **Building an app with Claude: a non-developer's journey***
+
+---
+
 The first thing I did was start designing screens.
 
 I had a clear picture in my head of what the app should look like — a weekly calendar, assistant cards, a clean dashboard with summary numbers — and I started describing it to Claude and ChatGPT. Both were helpful. Maybe too helpful. They generated layouts, suggested colour palettes, proposed interaction patterns. I refined things. I iterated. I went deep.
@@ -23,3 +27,7 @@ The wireframes weren't worthless — some of the thinking survived into the real
 What I should have done first: had Claude read Försäkringskassan's actual documentation. Understood the forms before designing anything. What fields exist, what counts as reportable time, how the two forms relate to each other. None of that was in my prototypes because I hadn't looked at it yet. I was designing a solution to a problem I hadn't read.
 
 Going back to the beginning was uncomfortable in the specific way that backtracking always is. But the second attempt was more grounded, because it started from the right place.
+
+---
+
+*[← Part 1: The Phone Calls](/blog/the-phone-calls/) · [Part 3: The App That Did Too Much →](/blog/the-app-that-did-too-much/)*

@@ -6,6 +6,10 @@ categories: blog
 excerpt: "Every month, I set aside time to fill in forms. I manage a care arrangement that involves several personal assistants. The paperwork is significant."
 ---
 
+*Part 1 of 5 — **Building an app with Claude: a non-developer's journey***
+
+---
+
 Every month, I set aside time to fill in forms.
 
 I manage a care arrangement that involves several personal assistants. In Sweden, this is funded through the state insurance system — Försäkringskassan, usually shortened to FK. The setup is relatively straightforward: you receive a grant of hours per week, you employ your assistants directly, and at the end of each month you submit documentation showing how those hours were used. Two forms. Per assistant. Per month. Mailed by post. With signatures.
@@ -23,3 +27,7 @@ So I decided to try building something. I want to be clear that I am not a devel
 I thought: what's the worst that could happen?
 
 I now know the answer to that question. It took a few months to find out.
+
+---
+
+*[Part 2: Weeks of Work, Wrong Direction →](/blog/weeks-of-work-wrong-direction/)*
