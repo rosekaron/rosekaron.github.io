@@ -31,4 +31,5 @@ google_fonts:
 
 navigation_pages:
   - about.md
+  - blog.md
   - cv/index.md
