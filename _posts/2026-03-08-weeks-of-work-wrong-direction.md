@@ -6,7 +6,7 @@ categories: blog
 excerpt: "The first thing I did was start designing screens. I know how that sounds. I've spent years telling teams not to do this."
 ---
 
-*Part 2 of 5 — **Building an app with Claude: a non-developer's journey***
+*Part 2 of 7 — **Building an app with Claude: a non-developer's journey***
 
 ---
 
@@ -24,7 +24,7 @@ Then I sat down with my husband — who fills in the FK forms with me every mont
 
 He was right. I'd been designing the parts that felt interesting to design and had left almost untouched the part that would solve the actual problem. The forms. The hour reporting. The monthly submission. Everything I was building around was there in detail, but the centre was missing.
 
-It's the same trap I've seen teams fall into for years. You start where you feel confident, not where the problem is. The wireframes weren't worthless — some of the thinking carried into the real build. But I'd skipped the step I know matters most: understand what you're actually trying to solve before you decide how it should look.
+It's the same trap I've seen teams fall into for years. You start where you feel confident, not where the problem is. I'd skipped the step I know matters most: understand what you're actually trying to solve before you decide how it should look.
 
 I closed the prototypes. I asked Claude to read Försäkringskassan's actual documentation instead. That's where the real build started.
 

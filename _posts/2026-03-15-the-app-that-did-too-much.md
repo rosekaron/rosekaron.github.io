@@ -6,7 +6,7 @@ categories: blog
 excerpt: "Once I started building properly, things moved quickly. Possibly too quickly. Not out of confusion — out of genuine excitement about the problem."
 ---
 
-*Part 3 of 5 — **Building an app with Claude: a non-developer's journey***
+*Part 3 of 7 — **Building an app with Claude: a non-developer's journey***
 
 ---
 

@@ -3,14 +3,14 @@ layout: post
 title: "I Didn't Know the Password to My Own App"
 date: 2026-03-24
 categories: blog
-excerpt: "A few weekends in, I sat down to test whether the whole thing actually worked end to end. The first step was logging in. I typed in what I thought the password was. Wrong."
+excerpt: "Last weekend, I sat down to test whether the whole thing actually worked end to end. The first step was logging in. I typed in what I thought the password was. Wrong."
 ---
 
-*Part 5 of 5 — **Building an app with Claude: a non-developer's journey***
+*Part 5 of 7 — **Building an app with Claude: a non-developer's journey***
 
 ---
 
-A few weekends in, I sat down to test whether the whole thing actually worked end to end.
+Last weekend, I sat down to test whether the whole thing actually worked end to end.
 
 The first step was logging in. I typed in what I thought the password was. Wrong. Tried a variation. Wrong. Tried the version I use when I'm trying to be more careful. Wrong.
 

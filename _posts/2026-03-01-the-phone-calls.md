@@ -6,7 +6,7 @@ categories: blog
 excerpt: "Every month, I set aside time to fill in forms. I manage a care arrangement that involves several personal assistants. The paperwork is significant."
 ---
 
-*Part 1 of 5 — **Building an app with Claude: a non-developer's journey***
+*Part 1 of 7 — **Building an app with Claude: a non-developer's journey***
 
 ---
 

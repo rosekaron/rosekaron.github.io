@@ -6,13 +6,13 @@ categories: blog
 excerpt: "There's a version of this app that does a lot of things I'll never use. Removing things felt different to how I expected. It mostly felt like clarity."
 ---
 
-*Part 4 of 5 — **Building an app with Claude: a non-developer's journey***
+*Part 4 of 7 — **Building an app with Claude: a non-developer's journey***
 
 ---
 
 There's a version of this app that does a lot of things I'll never use.
 
-Assistants could browse a list of available shifts and claim the ones they wanted. Each hour logged could be tagged with an activity type — bathing, eating, transport, physiotherapy. There was a whole tab in the navigation called Hours that had its own calendar view, its own reports section, its own way of managing blocked time. All of it built, none of it essential.
+A self-booking system. Activity tags on every entry. A whole Hours tab with its own calendar and reports. All of it built, none of it essential.
 
 I don't think building those features was a mistake exactly. I think I built them because I was imagining an app for a situation I hadn't fully thought through yet — a more complicated setup, more assistants, more coordination overhead. The self-booking feature makes a lot of sense if you have eight assistants and a complicated rota. I have a small team. We talk to each other.
 
@@ -25,8 +25,6 @@ There was one conversation with Claude that I keep coming back to. I asked wheth
 ```
 
 That small thing changed how I thought about cutting. You can remove something and leave the door open. The cost of trying is low.
-
-What stuck with me was the test I started applying after that: does this help someone get the monthly FK forms submitted correctly? If not, it's not for now. Maybe later, maybe never, but not now. That question cleared out more half-finished ideas than I expected. I'm glad it did.
 
 ---
 

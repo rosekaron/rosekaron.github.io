@@ -16,19 +16,11 @@ I have a LinkedIn because my work is in AI and the network matters. I scroll mor
 
 That changed when I started this project.
 
-Part of it was the problem itself. I'd been dealing with the same paperwork frustration for years, making the same phone calls, taking up time that wasn't mine to waste. When I finally started building something about it, I wanted to understand it properly — not just the technical side, but the system. The rules. Why the forms exist the way they do, what they're actually trying to capture. I asked Claude to read Försäkringskassan's documentation and it came back with a clearer summary than anything I'd managed to absorb in years of dealing with it.
-
-That moment sat with me. Not because AI read a government document. But because I realised I'd been carrying this problem for so long that I'd stopped asking whether it could be solved differently.
-
-There are a lot of people in that position. Not with this specific problem — with their own version of it. A workflow that's broken and has always been broken. A form that takes three hours and shouldn't. A process held together with spreadsheets and phone calls and goodwill.
+Somewhere in the middle of it — somewhere between the FK documentation and the commented-out code and the password I couldn't remember — I realised I'd been carrying this problem for so long that I'd stopped asking whether it could be solved differently. That moment sat with me.
 
 I'm not an engineer. I have a regular job. This happened in a weekend and a few evenings. I made bad decisions, hit walls, texted people who knew more than me, and kept going. The app isn't finished. The blog isn't polished. I wrote these posts and rewrote them and rewrote them again because getting the voice right turned out to be as hard as getting the code right.
 
 But it's real, and it works, and it's solving the problem I built it for.
-
-If you have a problem like that — something you've quietly accepted because fixing it felt too technical, too complicated, too far outside what you know — I hope this is useful. Not as a tutorial. Just as evidence that the gap between "I have this problem" and "I built something that solves it" is smaller than it used to be.
-
-Roll up your sleeves. Ask for help. Have fun along the way.
 
 ---
 
