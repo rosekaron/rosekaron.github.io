@@ -19,7 +19,7 @@ I had locked myself out of my own app. Claude's fix was to generate a new encryp
 ```sql
 UPDATE auth
 SET password_hash = '$2b$10$...hashed...', email_verified = true
-WHERE email = 'mj@karon.se';
+WHERE email = 'your@email.com';
 ```
 
 It took about a minute. I now have a test password, which is `test1234`, which I'm sharing because it's a local development environment and also because it feels like an accurate representation of where I am.
