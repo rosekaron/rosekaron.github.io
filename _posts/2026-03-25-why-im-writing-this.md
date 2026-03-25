@@ -12,7 +12,7 @@ excerpt: "I don't really post. I have a LinkedIn because my work is in AI and th
 
 I don't really post.
 
-I have a LinkedIn because my work is in AI and the network matters. I scroll more than I share. I've watched other people document their journeys — the builds, the pivots, the things they learned — and thought: good for them. I could never.
+I have a LinkedIn because I know my network is well ahead of me on this. They've been building with AI for longer, made mistakes I haven't made yet, and figured things out I'm still figuring out. I'm there to learn from them, not to perform for them. I scroll more than I share. I've watched other people document their journeys — the builds, the pivots, the things they learned — and thought: good for them. I could never.
 
 That changed when I started this project.
 
