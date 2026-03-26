@@ -62,8 +62,6 @@ If you've been vaguely aware of Skills but haven't touched them yet, here's what
 
 The reason I think Skills are kind of a big deal isn't because they're complicated — it's because they're not, and yet most people haven't touched them. There's a lot of power sitting there, waiting, behind a door that nobody told you was unlocked.
 
-Consider this your heads up.
-
 ---
 
 *Also in this series: [Building an app with Claude: a non-developer's journey →](/blog/the-phone-calls/)*
