@@ -58,7 +58,7 @@ If you've been vaguely aware of Skills but haven't touched them yet, here's what
 
 **Ignore anyone who makes it sound like you need to be technical to use this.** You don't. If you can write a decent email, you can write a Skill.
 
-**Pro tip: look for Skills that already exist before writing your own.** I assumed I'd have to build everything from scratch, but there's already a library of pre-made Skills out there — Anthropic ships some, and people in the community share theirs too. Before spending time writing a Skill for something common (coding help, writing in a certain format, research tasks), it's worth checking if someone already made a good one. Think of it like checking the menu before you ask if they can make something custom.
+**Pro tip: look for Skills that already exist before writing your own.** There's already a library of pre-made Skills out there — Anthropic ships some, and people in the community share theirs too. Before spending time writing a Skill for something common (coding help, writing in a certain format, research tasks), it's worth checking if someone already made a good one. Think of it like checking the menu before you ask if they can make something custom.
 
 The reason I think Skills are kind of a big deal isn't because they're complicated — it's because they're not, and yet most people haven't touched them. There's a lot of power sitting there, waiting, behind a door that nobody told you was unlocked.
 
