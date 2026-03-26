@@ -3,7 +3,8 @@ layout: post
 title: "The Instruction Sheet I Wish I'd Written From Day One"
 date: 2026-03-26
 categories: blog
-excerpt: "A few people have been asking me about Skills in Claude. Not in a casual way — more like they'd heard the word somewhere, felt slightly intimidated by it, and wanted me to decode it for them. And the concept isn't even Claude-specific."
+permalink: /blog/ai-custom-instructions-skills/
+excerpt: "Claude calls them Skills. ChatGPT has Custom Instructions. Gemini has Gems. Every major AI tool has a version of this — and most people haven't touched it yet. Here's what it actually is and why it changes things."
 ---
 
 A few people have been asking me about "Skills" in Claude. Not in a casual way — more like they'd heard the word somewhere, felt slightly intimidated by it, and wanted me to decode it for them. Which is fair, because I had no idea what they were either. And the concept isn't even Claude-specific — every major AI tool has a version of this. They just call it different things.
@@ -18,7 +19,7 @@ I'd seen the word "Skills" pop up in Claude's interface, "Custom Instructions" i
 
 Turns out it doesn't require any of that.
 
-## What They Actually Are
+## What AI Custom Instructions and Skills Actually Are
 
 Here's the non-intimidating version: a saved instruction set is basically a document that tells your AI how to behave in a specific situation.
 
