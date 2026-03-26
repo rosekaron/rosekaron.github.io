@@ -59,4 +59,4 @@ A static skill is a starting point. A skill with that one instruction is somethi
 
 ---
 
-*[← Part 9: I've Written These for Years. Never for My Own.](/blog/acceptance-testing-vibe-coded-app/) · [Start from the beginning →](/blog/the-phone-calls/)*
+*[← Part 9: I've Written These for Years. Never for My Own.](/blog/acceptance-testing-vibe-coded-app/) · [Start from the beginning →](/blog/vibe-coding-personal-assistance-paperwork/)*

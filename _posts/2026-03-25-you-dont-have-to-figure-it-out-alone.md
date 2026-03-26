@@ -31,4 +31,4 @@ Some of it was technical — someone pointed me toward the right approach for th
 
 ---
 
-*[← Part 5: Debugging a Vibe Coded App](/blog/debugging-vibe-coded-app/) · [Part 7: Why I'm Writing This →](/blog/why-im-writing-this/)*
+*[← Part 5: Debugging a Vibe Coded App](/blog/debugging-vibe-coded-app/) · [Part 7: Why I'm Writing This →](/blog/why-document-vibe-coding-journey/)*

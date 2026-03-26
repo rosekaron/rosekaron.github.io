@@ -77,4 +77,4 @@ There's a lot of power sitting there, in whatever AI tool you already use, behin
 
 ---
 
-*[Part 9: I've Written These for Years. Never for My Own. →](/blog/acceptance-testing-vibe-coded-app/) · [Start from the beginning →](/blog/the-phone-calls/)*
+*[Part 9: I've Written These for Years. Never for My Own. →](/blog/acceptance-testing-vibe-coded-app/) · [Start from the beginning →](/blog/vibe-coding-personal-assistance-paperwork/)*

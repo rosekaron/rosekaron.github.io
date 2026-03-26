@@ -7,7 +7,7 @@ permalink: /blog/acceptance-testing-vibe-coded-app/
 excerpt: "I use AI to write user stories at work. I skipped them for my own app. The basics matter more when there's no team to catch what you miss."
 ---
 
-*Part 9 of 9 — **Building an app with Claude: a non-developer's journey***
+*Part 9 of 10 — **Building an app with Claude: a non-developer's journey***
 
 ---
 
@@ -89,4 +89,4 @@ They apply more.
 
 ---
 
-*[← Part 8: The Instruction Sheet I Wish I'd Written From Day One](/blog/ai-custom-instructions-skills/)*
+*[← Part 8: The Instruction Sheet I Wish I'd Written From Day One](/blog/ai-custom-instructions-skills/) · [Part 10: I Told It to Tell Me What It Learned →](/blog/how-to-improve-ai-custom-instructions/)*
