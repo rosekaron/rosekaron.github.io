@@ -40,7 +40,13 @@ I went in expecting this to be mildly useful. I came out more impressed than I e
 
 First: you can write your own. I assumed these were something the tool vendor built and handed to you, like a fixed menu. But no — you can write one yourself, from scratch, in plain language. No code. No special syntax. Just a document that explains how you want the AI to work. I wrote one for the tone and structure of these blog posts, and now Claude just... does it. Without me having to explain the whole thing again at the start of every session.
 
+And when a session surfaces something new worth remembering, it asks:
+
+![A checklist prompt asking which learnings to add to the skill](/assets/images/skill-learnings-checklist.png)
+
 Second: it actually changes the output in a noticeable way. This sounds obvious in hindsight, but I didn't quite believe it until I saw it. The difference between a session with the right context loaded and one without it isn't subtle — it's like the difference between briefing someone properly and just hoping they figure it out. The output is sharper, more consistent, and weirdly more mine.
+
+![Claude updating the skill after being asked](/assets/images/skill-update-in-action.png)
 
 ## The Part Nobody Warned Me About
 
