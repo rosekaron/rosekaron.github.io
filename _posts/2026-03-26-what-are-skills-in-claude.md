@@ -49,6 +49,28 @@ Second: it actually changes the output in a noticeable way. This sounds obvious 
 
 ![Claude updating the skill after being asked](/assets/images/skill-update-in-action.png)
 
+## Skills Get Smarter. But Only If You Use Them.
+
+Here's something I didn't expect: the skill I wrote for these blog posts produced the wrong post.
+
+I had a session where we built something — user stories, acceptance testing, two new skills for running tests automatically. Real work. I asked Claude to write a blog post about it. It used the skill, followed the format, and produced something technically accurate that completely missed the point.
+
+I didn't like it. I said so. And instead of revising, Claude asked me questions:
+
+> *"What was the moment in this session that felt most significant to you?"*
+
+> *"Who are you writing this for — someone who doesn't know what user stories are, or someone who does but hasn't thought about applying AI to them?"*
+
+Those two questions changed the post entirely. The answer wasn't about user stories. It was about being a PM who automates this workflow at work — AI notetakers, JIRA, Confluence, instant stories out of a planning session — and still skipping all of it for her own project because she told herself building alone meant the basics didn't apply.
+
+That's a different story. And the skill didn't know to look for it.
+
+What came out of that exchange is now in the skill: ask the purpose before writing. Look for the moment where the author's professional instincts collided with her personal project — those are almost always the most honest parts. The skill is better now than it was at the start of that session.
+
+That's the thing about these instruction sets. Writing one is a starting point, not a finish line. Every session that surfaces something new is a chance to make it sharper. The skill I have now looks nothing like the first version I wrote. Same structure. Completely different depth.
+
+---
+
 ## The Part Nobody Warned Me About
 
 Here's the thing that frustrated me most, and it has nothing to do with the technology: the way people talk about this online made it sound harder than it is.
