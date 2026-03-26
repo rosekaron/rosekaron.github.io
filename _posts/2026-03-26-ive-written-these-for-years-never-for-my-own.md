@@ -4,7 +4,7 @@ title: "I've Written These for Years. Never for My Own."
 date: 2026-03-26
 categories: blog
 permalink: /blog/acceptance-testing-vibe-coded-app/
-excerpt: "I use AI to write user stories at work. I skipped them entirely when building my own app. Turns out the basics matter more when there's no team to catch what you miss."
+excerpt: "I use AI to write user stories at work. I skipped them for my own app. The basics matter more when there's no team to catch what you miss."
 ---
 
 *Part 9 of 9 — **Building an app with Claude: a non-developer's journey***
@@ -25,6 +25,8 @@ I opened a blank file. Sixteen features built. Zero stories written.
 
 ---
 
+## What Writing the User Stories Exposed
+
 They came quickly — I know the format. Thirty minutes and I had sixteen stories across login, dashboard, assistants, reports, settings, FK compliance.
 
 Then I read through them and noticed: registration was missing. Not in the code — registration existed. In my thinking. I'd documented what the app does once you're inside and skipped the part where you get in. Two stories added: guardian self-registration and assistant invite-based setup, with edge cases for duplicate emails, expired invite links, weak passwords.
@@ -34,6 +36,8 @@ That's what the exercise exposed — not a bug, but a gap in how I'd been thinki
 Writing the user stories mid-build told me something I should have known at the start: I skipped ideation. I should have done this before I wrote a single line of code.
 
 ---
+
+## Acceptance Testing a PDF: Seven Test Cases for One Button
 
 The PDF test cases made the gap even more visible.
 
@@ -58,6 +62,8 @@ Seven test cases for one button. And this one — the last one — can't be auto
 You have to print it. Hold it. Check that there's space to write. No tool can do that for you.
 
 ---
+
+## Using AI to Turn Acceptance Tests into a Regression Testing System
 
 Once the stories existed, I asked Claude whether we should build skills out of them.
 

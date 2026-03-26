@@ -4,7 +4,7 @@ title: "I Spent Years Correcting the Same Forms. Then I Vibe Coded an App."
 date: 2026-03-01
 categories: blog
 permalink: /blog/vibe-coding-personal-assistance-paperwork/
-excerpt: "A non-developer managing personal assistance paperwork in Sweden. Two forms, per assistant, per month, mailed by post. After years of errors and phone calls to Försäkringskassan, I vibe coded an app to fix it."
+excerpt: "A non-developer managing personal assistance paperwork in Sweden. After years of errors filling FK forms, I vibe coded an app to fix it."
 ---
 
 *Part 1 of 7 — **Building an app with Claude: a non-developer's journey***

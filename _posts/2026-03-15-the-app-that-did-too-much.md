@@ -4,7 +4,7 @@ title: "I Built Everything I Could Think Of. Then I Cut Most of It."
 date: 2026-03-15
 categories: blog
 permalink: /blog/vibe-coding-feature-creep/
-excerpt: "When vibe coding, it's easy to build too much too fast. Feature creep happens when excitement outpaces validation. Here's what I built, why, and how MVP thinking helped me cut it back."
+excerpt: "When vibe coding, feature creep happens when excitement outpaces validation. How MVP thinking helped me cut back a vibe coded app that did too much."
 ---
 
 *Part 3 of 7 — **Building an app with Claude: a non-developer's journey***

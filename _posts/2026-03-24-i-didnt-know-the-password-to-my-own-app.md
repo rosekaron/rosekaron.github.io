@@ -4,7 +4,7 @@ title: "Debugging a Vibe Coded App: Silent Bugs, Wrong Field Names, and a Missin
 date: 2026-03-24
 categories: blog
 permalink: /blog/debugging-vibe-coded-app/
-excerpt: "I locked myself out of my own app. Then found silent bugs on every page. A debugging session through a vibe coded app: wrong field names, a missed deadline calculation, and a dashboard that showed nothing."
+excerpt: "I locked myself out of my own app. Then found silent bugs on every page. Debugging a vibe coded app: wrong field names, missed FK deadline, blank dashboard."
 ---
 
 *Part 5 of 7 — **Building an app with Claude: a non-developer's journey***
@@ -24,6 +24,8 @@ WHERE email = 'your@email.com';
 ```
 
 It took about a minute. I now have a test password, which is `test1234`, which I'm sharing because it's a local development environment and also because it feels like an accurate representation of where I am.
+
+## Silent Bugs on Every Page
 
 Once I was in, the dashboard showed nothing. No entries, no assistant names, no hours. Blank cards. The data existed — I could see it if I looked at the database directly. The app just wasn't showing any of it.
 
@@ -49,6 +51,8 @@ We went through the files one by one. I understood most of the fixes. I made a n
 
 ---
 
+## The FK Deadline Was Wrong
+
 Once the data was loading, I started checking whether the logic was right. Claude offered to read Försäkringskassan's actual documentation — pull the relevant pages, summarise the process. It came back with a clear explanation of how the two forms work, what counts as reportable time, and when everything is due.
 
 It also found a bug I hadn't caught. I had the FK deadline wrong. Reports are due on the 5th of the *second* month after the work month — not the next month. January's work is due in March, not February.
@@ -64,6 +68,8 @@ const dueDate = new Date(now.getFullYear(), now.getMonth() + 2, 5);
 One number. Wrong every month.
 
 ---
+
+## Rebuilding the Dashboard Around the Right Question
 
 After fixing the data and the deadline, we rebuilt the dashboard. The old version had cards with numbers. It looked like a dashboard. But it wasn't answering the question that matters on the first of the month: am I ready to submit?
 

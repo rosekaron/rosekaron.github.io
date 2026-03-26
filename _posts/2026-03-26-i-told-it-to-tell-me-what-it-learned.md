@@ -4,7 +4,7 @@ title: "I Told It to Tell Me What It Learned"
 date: 2026-03-26
 categories: blog
 permalink: /blog/how-to-improve-ai-custom-instructions/
-excerpt: "One instruction turned a static set of saved notes into something that gets better every session. Here's the pro tip nobody mentions when they tell you to set up AI custom instructions."
+excerpt: "One instruction made my AI custom instructions smarter every session. The pro tip nobody mentions when setting up Claude Skills or ChatGPT Custom Instructions."
 ---
 
 *Part 10 of 10 — **Building an app with Claude: a non-developer's journey***

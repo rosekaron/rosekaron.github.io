@@ -4,7 +4,7 @@ title: "Vibe Coding Mistake: Why I Built Wireframes Before Reading the Requireme
 date: 2026-03-08
 categories: blog
 permalink: /blog/vibe-coding-mistake-wireframes-before-requirements/
-excerpt: "The first vibe coding mistake I made: building wireframes before understanding the problem. I spent weeks designing screens for an app that was missing its core feature."
+excerpt: "The first vibe coding mistake I made: building wireframes before reading the requirements. Weeks of work before I solved the actual problem."
 ---
 
 *Part 2 of 7 — **Building an app with Claude: a non-developer's journey***

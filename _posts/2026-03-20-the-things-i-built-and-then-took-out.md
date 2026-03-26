@@ -4,7 +4,7 @@ title: "How I Decided Which Features to Cut from My Vibe Coded App"
 date: 2026-03-20
 categories: blog
 permalink: /blog/cutting-features-vibe-coded-app/
-excerpt: "Removing features from a vibe coded app felt different to how I expected. Not loss — clarity. Here's how I applied an MVP test to decide what to keep and what to cut."
+excerpt: "Removing features from a vibe coded app felt like clarity, not loss. How I applied an MVP test to decide what to keep and what to cut."
 ---
 
 *Part 4 of 7 — **Building an app with Claude: a non-developer's journey***

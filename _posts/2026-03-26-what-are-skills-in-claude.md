@@ -4,7 +4,7 @@ title: "The Instruction Sheet I Wish I'd Written From Day One"
 date: 2026-03-26
 categories: blog
 permalink: /blog/ai-custom-instructions-skills/
-excerpt: "Claude calls them Skills. ChatGPT has Custom Instructions. Gemini has Gems. Every major AI tool has a version of this — and most people haven't touched it yet. Here's what it actually is and why it changes things."
+excerpt: "Claude calls them Skills. ChatGPT has Custom Instructions. Gemini has Gems. Every major AI tool has a version of this — and most people haven't touched it yet."
 ---
 
 A few people have been asking me about "Skills" in Claude. Not in a casual way — more like they'd heard the word somewhere, felt slightly intimidated by it, and wanted me to decode it for them. Which is fair, because I had no idea what they were either. And the concept isn't even Claude-specific — every major AI tool has a version of this. They just call it different things.
