@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Weeks of Work, Wrong Direction"
+title: "Vibe Coding Mistake: Why I Built Wireframes Before Reading the Requirements"
 date: 2026-03-08
 categories: blog
-excerpt: "The first thing I did was start designing screens. I know how that sounds. I've spent years telling teams not to do this."
+permalink: /blog/vibe-coding-mistake-wireframes-before-requirements/
+excerpt: "The first vibe coding mistake I made: building wireframes before understanding the problem. I spent weeks designing screens for an app that was missing its core feature."
 ---
 
 *Part 2 of 7 — **Building an app with Claude: a non-developer's journey***
@@ -30,4 +31,4 @@ I closed the prototypes. I asked Claude to read Försäkringskassan's actual doc
 
 ---
 
-*[← Part 1: The Phone Calls](/blog/the-phone-calls/) · [Part 3: The App That Did Too Much →](/blog/the-app-that-did-too-much/)*
+*[← Part 1: I Spent Years Correcting the Same Forms. Then I Vibe Coded an App.](/blog/vibe-coding-personal-assistance-paperwork/) · [Part 3: I Built Everything I Could Think Of. Then I Cut Most of It. →](/blog/vibe-coding-feature-creep/)*

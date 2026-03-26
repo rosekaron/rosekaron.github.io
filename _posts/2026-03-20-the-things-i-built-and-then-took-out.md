@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "The Things I Built and Then Took Out"
+title: "How I Decided Which Features to Cut from My Vibe Coded App"
 date: 2026-03-20
 categories: blog
-excerpt: "There's a version of this app that does a lot of things I'll never use. Removing things felt different to how I expected. It mostly felt like clarity."
+permalink: /blog/cutting-features-vibe-coded-app/
+excerpt: "Removing features from a vibe coded app felt different to how I expected. Not loss — clarity. Here's how I applied an MVP test to decide what to keep and what to cut."
 ---
 
 *Part 4 of 7 — **Building an app with Claude: a non-developer's journey***
@@ -28,4 +29,4 @@ That small thing changed how I thought about cutting. You can remove something a
 
 ---
 
-*[← Part 3: The App That Did Too Much](/blog/the-app-that-did-too-much/) · [Part 5: I Didn't Know the Password to My Own App →](/blog/i-didnt-know-the-password-to-my-own-app/)*
+*[← Part 3: I Built Everything I Could Think Of. Then I Cut Most of It.](/blog/vibe-coding-feature-creep/) · [Part 5: Debugging a Vibe Coded App →](/blog/debugging-vibe-coded-app/)*

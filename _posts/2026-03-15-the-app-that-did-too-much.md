@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "The App That Did Too Much"
+title: "I Built Everything I Could Think Of. Then I Cut Most of It."
 date: 2026-03-15
 categories: blog
-excerpt: "Once I started building properly, things moved quickly. Possibly too quickly. Not out of confusion — out of genuine excitement about the problem."
+permalink: /blog/vibe-coding-feature-creep/
+excerpt: "When vibe coding, it's easy to build too much too fast. Feature creep happens when excitement outpaces validation. Here's what I built, why, and how MVP thinking helped me cut it back."
 ---
 
 *Part 3 of 7 — **Building an app with Claude: a non-developer's journey***
@@ -42,4 +43,4 @@ I started cutting.
 
 ---
 
-*[← Part 2: Weeks of Work, Wrong Direction](/blog/weeks-of-work-wrong-direction/) · [Part 4: The Things I Built and Then Took Out →](/blog/the-things-i-built-and-then-took-out/)*
+*[← Part 2: Vibe Coding Mistake: Why I Built Wireframes Before Reading the Requirements](/blog/vibe-coding-mistake-wireframes-before-requirements/) · [Part 4: How I Decided Which Features to Cut from My Vibe Coded App →](/blog/cutting-features-vibe-coded-app/)*

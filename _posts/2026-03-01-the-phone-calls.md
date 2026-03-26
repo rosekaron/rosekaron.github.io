@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "The Phone Calls"
+title: "I Spent Years Correcting the Same Forms. Then I Vibe Coded an App."
 date: 2026-03-01
 categories: blog
-excerpt: "Every month, I set aside time to fill in forms. I manage a care arrangement that involves several personal assistants. The paperwork is significant."
+permalink: /blog/vibe-coding-personal-assistance-paperwork/
+excerpt: "A non-developer managing personal assistance paperwork in Sweden. Two forms, per assistant, per month, mailed by post. After years of errors and phone calls to Försäkringskassan, I vibe coded an app to fix it."
 ---
 
 *Part 1 of 7 — **Building an app with Claude: a non-developer's journey***
@@ -26,4 +27,4 @@ I'm not a developer. I work a regular job and already use Claude as part of it. 
 
 ---
 
-*[Part 2: Weeks of Work, Wrong Direction →](/blog/weeks-of-work-wrong-direction/)*
+*[Part 2: Vibe Coding Mistake: Why I Built Wireframes Before Reading the Requirements →](/blog/vibe-coding-mistake-wireframes-before-requirements/)*

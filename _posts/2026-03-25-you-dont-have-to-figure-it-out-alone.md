@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "You Don't Have to Figure It Out Alone"
+title: "Your Network Is a Vibe Coding Tool. Most People Forget to Use It."
 date: 2026-03-25
 categories: blog
-excerpt: "At some point last Sunday, Claude installed Python in my Node.js project. I didn't catch it immediately. This happened more than once over the weekend."
+permalink: /blog/network-as-vibe-coding-tool/
+excerpt: "AI has limits. When Claude installed Python in my Node.js project and silent bugs slipped through unnoticed, I turned to my network. Here's why the people around you are an underrated vibe coding tool."
 ---
 
 *Part 6 of 7 — **Building an app with Claude: a non-developer's journey***
@@ -30,4 +31,4 @@ Some of it was technical — someone pointed me toward the right approach for th
 
 ---
 
-*[← Part 5: I Didn't Know the Password to My Own App](/blog/i-didnt-know-the-password-to-my-own-app/) · [Part 7: Why I'm Writing This →](/blog/why-im-writing-this/)*
+*[← Part 5: Debugging a Vibe Coded App](/blog/debugging-vibe-coded-app/) · [Part 7: Why I'm Writing This →](/blog/why-im-writing-this/)*

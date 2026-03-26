@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "I Didn't Know the Password to My Own App"
+title: "Debugging a Vibe Coded App: Silent Bugs, Wrong Field Names, and a Missing Password"
 date: 2026-03-24
 categories: blog
-excerpt: "Last weekend, I sat down to test whether the whole thing actually worked end to end. The first step was logging in. I typed in what I thought the password was. Wrong."
+permalink: /blog/debugging-vibe-coded-app/
+excerpt: "I locked myself out of my own app. Then found silent bugs on every page. A debugging session through a vibe coded app: wrong field names, a missed deadline calculation, and a dashboard that showed nothing."
 ---
 
 *Part 5 of 7 — **Building an app with Claude: a non-developer's journey***
@@ -72,4 +73,4 @@ As a PM I've written that brief a hundred times. It took building the wrong vers
 
 ---
 
-*[← Part 4: The Things I Built and Then Took Out](/blog/the-things-i-built-and-then-took-out/) · [Part 6: You Don't Have to Figure It Out Alone →](/blog/you-dont-have-to-figure-it-out-alone/)*
+*[← Part 4: How I Decided Which Features to Cut from My Vibe Coded App](/blog/cutting-features-vibe-coded-app/) · [Part 6: Your Network Is a Vibe Coding Tool →](/blog/network-as-vibe-coding-tool/)*

@@ -24,4 +24,4 @@ But it's real, and it works, and it's solving the problem I built it for.
 
 ---
 
-*[← Part 6: You Don't Have to Figure It Out Alone](/blog/you-dont-have-to-figure-it-out-alone/) · [Start from the beginning →](/blog/the-phone-calls/)*
+*[← Part 6: Your Network Is a Vibe Coding Tool. Most People Forget to Use It.](/blog/network-as-vibe-coding-tool/) · [Start from the beginning →](/blog/vibe-coding-personal-assistance-paperwork/)*
