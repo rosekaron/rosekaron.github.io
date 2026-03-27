@@ -42,10 +42,8 @@ The gap wasn't that the feature was missing. The gap was that no one had written
 
 ---
 
-We stopped two groups in. The reports section has seven sub-stories just for the PDF output, and we haven't touched it. I interrupted the review to write about the review. The backlog doesn't care.
-
----
+We stopped two groups in. The reports section has seven sub-stories just for the PDF output, and we haven't touched it. I interrupted the review to write about the review because I think it's important to share what I learned here.
 
 A grooming session works when people come prepared and decisions get made quickly. That's the whole thing. Most of the overhead — the scheduling, the catching up, the circling back — is just the cost of getting people to that state. If the context is already there, you can skip straight to the questions.
 
-What it won't do is replace the person who says *I remember a user asking about this six months ago* or *legal flagged something similar last quarter.* That knowledge doesn't live in any document. But for what does — specs, test results, code — it runs the session.
+What it won't do is replace the person who says I remember a user asking about this six months ago or legal flagged something similar last quarter. That knowledge doesn't live in any document. But maybe, that's a topic that I can write about in the future.
