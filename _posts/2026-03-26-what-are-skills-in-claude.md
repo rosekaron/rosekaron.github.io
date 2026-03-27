@@ -7,6 +7,8 @@ permalink: /blog/ai-custom-instructions-skills/
 excerpt: "Claude calls them Skills. ChatGPT has Custom Instructions. Gemini has Gems. Every major AI tool has a version of this — and most people haven't touched it yet."
 ---
 
+*Part 8 of 11 — **Vibe Coding for Non-Developers***
+
 A few people have been asking me about "Skills" in Claude. Not in a casual way — more like they'd heard the word somewhere, felt slightly intimidated by it, and wanted me to decode it for them. Which is fair, because I had no idea what they were either. And the concept isn't even Claude-specific — every major AI tool has a version of this. They just call it different things.
 
 So I went and actually figured it out. And then I started using them myself. And honestly? It's one of those things that sounds way more technical than it is.

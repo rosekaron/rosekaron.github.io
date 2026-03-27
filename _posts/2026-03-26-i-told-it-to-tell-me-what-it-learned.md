@@ -7,7 +7,7 @@ permalink: /blog/how-to-improve-ai-custom-instructions/
 excerpt: "One instruction made my AI custom instructions smarter every session. The pro tip nobody mentions when setting up Claude Skills or ChatGPT Custom Instructions."
 ---
 
-*Part 10 of 10 — **Vibe Coding for Non-Developers***
+*Part 10 of 11 — **Vibe Coding for Non-Developers***
 
 ---
 

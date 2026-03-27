@@ -7,7 +7,7 @@ permalink: /blog/cutting-features-vibe-coded-app/
 excerpt: "Removing features from a vibe coded app felt like clarity, not loss. How I applied an MVP test to decide what to keep and what to cut."
 ---
 
-*Part 4 of 7 — **Vibe Coding for Non-Developers***
+*Part 4 of 11 — **Vibe Coding for Non-Developers***
 
 ---
 

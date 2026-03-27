@@ -7,7 +7,7 @@ permalink: /blog/acceptance-testing-results-vibe-coded-app/
 excerpt: "I ran my first acceptance test on the Kalinga app. Sixteen features, two bugs found in five minutes, and two user stories that described an app that no longer existed."
 ---
 
-*Part 11 — **Vibe Coding for Non-Developers***
+*Part 11 of 11 — **Vibe Coding for Non-Developers***
 
 ---
 

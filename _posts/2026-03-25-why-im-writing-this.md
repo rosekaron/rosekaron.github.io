@@ -7,7 +7,7 @@ permalink: /blog/why-document-vibe-coding-journey/
 excerpt: "I don't really post. But I documented this vibe coding journey because my network is ahead of me on AI — and I wanted them to see it's possible without being technical."
 ---
 
-*Part 7 of 7 — **Vibe Coding for Non-Developers***
+*Part 7 of 11 — **Vibe Coding for Non-Developers***
 
 ---
 

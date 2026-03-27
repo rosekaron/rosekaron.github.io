@@ -7,7 +7,7 @@ permalink: /blog/vibe-coding-mistake-wireframes-before-requirements/
 excerpt: "The first vibe coding mistake I made: building wireframes before reading the requirements. Weeks of work before I solved the actual problem."
 ---
 
-*Part 2 of 7 — **Vibe Coding for Non-Developers***
+*Part 2 of 11 — **Vibe Coding for Non-Developers***
 
 ---
 
