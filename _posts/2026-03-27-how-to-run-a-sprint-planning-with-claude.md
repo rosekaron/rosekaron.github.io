@@ -12,19 +12,29 @@ I do this at work. Someone owns the backlog, the team reads through it, question
 
 This took two minutes to start.
 
-Registration was first. Claude read through the story, flagged which scenarios had passed in the test run, then asked whether I was a different person from the patient I'm managing care for. In Sweden, sometimes the patient employs their own assistants directly. Sometimes a family member does it for them. The app had fields for both — a guardian profile, a patient profile — but the user stories didn't say anything about which situation applied, or whether the app handled both.
+---
+
+Registration was first. Claude read through the story, flagged which scenarios had passed in the test run, then stopped and asked:
+
+> *"In your use case, are you a different person from the patient? And do you want the app to eventually support both scenarios explicitly — or is the current model good enough for v0.1?"*
+
+In Sweden, sometimes the patient employs their own assistants directly. Sometimes a family member does it for them. The app had fields for both — a guardian profile, a patient profile — but the user stories didn't say anything about which situation applied.
 
 I hadn't documented it because I built it and just knew.
 
-*Same model for v1, keep it simple.* That was my answer.
+I typed back:
 
-Claude noted it and moved to the next group. No discussion. No "should we park this for a follow-up." In a real meeting that question sometimes opens fifteen minutes of conversation about scope. Here it was one sentence in, one sentence out.
+> *"let's keep the same for v1"*
+
+Claude noted it and moved to the next group. No discussion. No "should we park this for a follow-up." In a real meeting that question sometimes opens fifteen minutes of conversation about scope. Here it was one line in, one line out.
 
 ---
 
-Authentication was next. We were a few lines into it when I asked, not really as part of the review — just because I realised I didn't know — how a user resets their password.
+Authentication was next. We were a few lines into it when I typed, not really as part of the review — just because I realised I didn't know:
 
-Claude went to the code. Not the user stories document. The code. And came back with a description of a feature that was already fully built: a forgot-password link on the login page, a token-based reset email, a one-time-use link that expires in 24 hours. Implemented. Tested. Not a single user story written for it.
+> *"how does the user reset his password?"*
+
+Claude went to the code. Not the user stories document. The code. And came back with a full description of a feature that was already built: a forgot-password link on the login page, a token-based reset email, a one-time-use link that expires in 24 hours. Implemented. Tested. Not a single user story written for it.
 
 In a sprint grooming session, that moment usually comes from someone on the team saying *wait, didn't we build this already?* It surfaces because someone remembers. Here it surfaced because I asked a random question and Claude looked in the right place.
 
