@@ -80,8 +80,4 @@ The session put it on paper for the first time.
 
 ---
 
-One conversation. Three outcomes: a feature cut from the dashboard, two user stories rewritten for the right actor, and a missing part of the product formally identified for the first time.
-
-A grooming session works when people come prepared and decisions get made quickly. Most of the overhead — the scheduling, the catching up, the circling back — is just the cost of getting people to that state. If the context is already there, you can skip straight to the questions.
-
-What it won't do is replace the person who says *I remember a user asking about this six months ago* or *legal flagged something similar last quarter.* That knowledge doesn't live in any document. But for what does — specs, test results, code — it runs the session.
+One session. A feature cut, two stories rewritten, and a gap that had been living in my head finally written down. That's a decent hour's work for a team of one.
