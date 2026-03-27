@@ -7,7 +7,7 @@ permalink: /blog/debugging-vibe-coded-app/
 excerpt: "I locked myself out of my own app. Then found silent bugs on every page. Debugging a vibe coded app: wrong field names, missed FK deadline, blank dashboard."
 ---
 
-*Part 5 of 7 — **Building an app with Claude: a non-developer's journey***
+*Part 5 of 7 — **Vibe Coding for Non-Developers***
 
 ---
 

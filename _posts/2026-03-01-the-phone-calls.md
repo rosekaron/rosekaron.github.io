@@ -7,7 +7,7 @@ permalink: /blog/vibe-coding-personal-assistance-paperwork/
 excerpt: "A non-developer managing personal assistance paperwork in Sweden. After years of errors filling FK forms, I vibe coded an app to fix it."
 ---
 
-*Part 1 of 7 — **Building an app with Claude: a non-developer's journey***
+*Part 1 of 7 — **Vibe Coding for Non-Developers***
 
 ---
 

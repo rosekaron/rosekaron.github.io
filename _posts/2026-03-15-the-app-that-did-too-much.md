@@ -7,7 +7,7 @@ permalink: /blog/vibe-coding-feature-creep/
 excerpt: "When vibe coding, feature creep happens when excitement outpaces validation. How MVP thinking helped me cut back a vibe coded app that did too much."
 ---
 
-*Part 3 of 7 — **Building an app with Claude: a non-developer's journey***
+*Part 3 of 7 — **Vibe Coding for Non-Developers***
 
 ---
 

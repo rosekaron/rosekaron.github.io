@@ -7,7 +7,7 @@ permalink: /blog/network-as-vibe-coding-tool/
 excerpt: "AI has limits. When Claude installed Python in my Node.js project, I turned to my network. Why the people around you are an underrated vibe coding tool."
 ---
 
-*Part 6 of 7 — **Building an app with Claude: a non-developer's journey***
+*Part 6 of 7 — **Vibe Coding for Non-Developers***
 
 ---
 
