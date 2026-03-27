@@ -6,42 +6,36 @@ permalink: /blog/sprint-planning-with-claude/
 excerpt: "I run sprint planning sessions for a living. Then I ran one with Claude to review 16 user stories. Here's what the session actually looked like."
 ---
 
-I have sixteen user stories for my app. They were written after most of the app was already built — which is not how it's supposed to work, and I know that. I do this for a living.
+We were mid-session. We'd just finished running acceptance tests on the app and I said, without much ceremony: let's go through the user stories too. One group at a time.
 
-Last week I decided to review them. Not rewrite from scratch, just go through them group by group and check if they still matched what the app actually does. I shared the document with Claude, pointed at the test results from a run I'd done the week before, and said: one group at a time.
+I do this at work. Someone owns the backlog, the team reads through it, questions come up, decisions get made, gaps get added to the list. It usually takes an hour. It usually requires a room.
 
-It started with registration.
+This took two minutes to start.
 
-Claude summarised the first story, flagged that the test run had confirmed all three scenarios, then asked: *"In your use case, are you a different person from the patient? And do you want the app to eventually support both scenarios explicitly — or is the current model good enough for v0.1?"*
+Registration was first. Claude read through the story, flagged which scenarios had passed in the test run, then asked whether I was a different person from the patient I'm managing care for. In Sweden, sometimes the patient employs their own assistants directly. Sometimes a family member does it for them. The app had fields for both — a guardian profile, a patient profile — but the user stories didn't say anything about which situation applied, or whether the app handled both.
 
-That's the question a good business analyst asks in a refinement session. Not a code question. A product question. It came from Claude reading the database schema and noticing that "patient" wasn't a user role — it was a profile record attached to a guardian account. A distinction I hadn't documented because I built it and had just absorbed it.
+I hadn't documented it because I built it and just knew.
 
-I answered: same model for v1, keep it simple. It noted the decision and moved on. No debate. No "but have you considered." Just: noted, next group.
+*Same model for v1, keep it simple.* That was my answer.
 
-The quality of the question came directly from the context I'd given it upfront — the spec, the test results, the code. It couldn't have asked that question from the document alone.
-
----
-
-We got to authentication. Claude summarised the login story, then said there was no user story for password reset. Then — because it had read the code, not just the document — it described the full feature that was already built. A forgot-password link, a token-based reset email, a one-time-use token that expires in 24 hours. The whole thing implemented and undocumented.
-
-That happens in real refinement sessions. Someone looks at the spec and says: this has been live for months, why isn't it here? In a team, that gap belongs to someone. In my case, that someone was me.
-
-Working one group at a time meant that question had room to surface. If I'd shared all sixteen stories and asked for a general review, that gap would have been a bullet point at the bottom.
+Claude noted it and moved to the next group. No discussion. No "should we park this for a follow-up." In a real meeting that question sometimes opens fifteen minutes of conversation about scope. Here it was one sentence in, one sentence out.
 
 ---
 
-Two groups in and I'm describing this as if it was a normal meeting.
+Authentication was next. We were a few lines into it when I asked, not really as part of the review — just because I realised I didn't know — how a user resets their password.
 
-It was a normal meeting. I facilitate this kind of session at work. Someone presents the stories, the team asks questions, scope decisions get made, gaps get surfaced. It takes an hour if everyone's prepared, longer if they aren't.
+Claude went to the code. Not the user stories document. The code. And came back with a description of a feature that was already fully built: a forgot-password link on the login page, a token-based reset email, a one-time-use link that expires in 24 hours. Implemented. Tested. Not a single user story written for it.
 
-The difference with Claude is that it comes prepared. It had read the document, the test results, and the codebase before I asked the first question. When I made a decision, it stopped asking about it. When the session ended, it didn't need five minutes of wrap-up.
+In a sprint grooming session, that moment usually comes from someone on the team saying *wait, didn't we build this already?* It surfaces because someone remembers. Here it surfaced because I asked a random question and Claude looked in the right place.
 
-I'm not saying it replaced a team. A team catches things Claude doesn't — the edge case someone ran into months ago, the thing a user said in feedback, the legal question nobody's looked into properly. None of that is in any document I gave it.
-
-But for what I had — a document, a test result, a codebase — it ran the session.
+The gap wasn't that the feature was missing. The gap was that no one had written it down — and I was the only person on this team.
 
 ---
 
-We still haven't finished the review. The reports section has seven sub-stories just for PDF output.
+We stopped two groups in. The reports section has seven sub-stories just for the PDF output, and we haven't touched it. I interrupted the review to write about the review. The backlog doesn't care.
 
-Claude will get to them.
+---
+
+A grooming session works when people come prepared and decisions get made quickly. That's the whole thing. Most of the overhead — the scheduling, the catching up, the circling back — is just the cost of getting people to that state. If the context is already there, you can skip straight to the questions.
+
+What it won't do is replace the person who says *I remember a user asking about this six months ago* or *legal flagged something similar last quarter.* That knowledge doesn't live in any document. But for what does — specs, test results, code — it runs the session.
