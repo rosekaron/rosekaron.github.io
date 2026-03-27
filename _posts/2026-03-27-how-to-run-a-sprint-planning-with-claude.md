@@ -24,7 +24,7 @@ Claude asked:
 
 > *"What do you want a guardian to walk away knowing after 10 seconds on the dashboard?"*
 
-I didn't have a clean answer. That was the first aha moment — not about the feature, but about the fact that I'd built it without ever asking that question.
+I had an answer — I just hadn't said it out loud yet. The dashboard was always meant to be more action-oriented. I'd just never thought to tell Claude that, because when you're building alone, the things you know live in your head and stay there.
 
 I asked what the dashboard currently showed. Claude went to the code: a 7-day grid hardcoded to the current week, a FK deadline countdown, a pending approvals count. No week navigation — for that you click through to the schedule.
 
