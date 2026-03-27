@@ -3,7 +3,7 @@ layout: post
 title: "How to Run a Sprint Planning Session with Claude"
 date: 2026-03-27
 permalink: /blog/sprint-planning-with-claude/
-excerpt: "I run sprint planning sessions for a living. Then I ran one with Claude to review 16 user stories. Here's what the session actually looked like."
+excerpt: "I run sprint planning sessions for a living. Then I ran one with Claude to review 16 user stories. The dashboard conversation alone changed what I'm building."
 ---
 
 We were mid-session. We'd just finished running acceptance tests on the app and I said, without much ceremony: let's go through the user stories too. One group at a time.
@@ -14,53 +14,72 @@ This took two minutes to start.
 
 ---
 
-Registration was first. Claude read through the story, flagged which scenarios had passed in the test run, then stopped and asked:
-
-> *"In your use case, are you a different person from the patient? And do you want the app to eventually support both scenarios explicitly — or is the current model good enough for v0.1?"*
-
-In Sweden, sometimes the patient employs their own assistants directly. Sometimes a family member does it for them. The app had fields for both — a guardian profile, a patient profile — but the user stories didn't say anything about which situation applied.
-
-I hadn't documented it because I built it and just knew.
+Registration was first. Claude read through the story, flagged which scenarios had passed in the test run, then asked whether I was a different person from the patient I'm managing care for — the app had fields for both but the user stories said nothing about which scenario applied.
 
 I typed back:
 
 > *"let's keep the same for v1"*
 
-Claude noted it and moved to the next group. No discussion. No "should we park this for a follow-up." In a real meeting that question sometimes opens fifteen minutes of conversation about scope. Here it was one line in, one line out.
+Claude noted it and moved on. No discussion. One line in, one line out.
 
 ---
 
-Authentication was next. We were a few lines into it when I typed, not really as part of the review — just because I realised I didn't know:
+We got to the dashboard. The story said: show a 7-day grid of the current week with coverage status. Claude flagged it, then asked:
 
-> *"how does the user reset his password?"*
+> *"Current week only — or should the guardian be able to navigate to next week too?"*
 
-Claude went to the code. Not the user stories document. The code. And came back with a full description of a feature that was already built: a forgot-password link on the login page, a token-based reset email, a one-time-use link that expires in 24 hours. Implemented. Tested. Not a single user story written for it.
+I stopped and typed:
 
-In a sprint grooming session, that moment usually comes from someone on the team saying *wait, didn't we build this already?* It surfaces because someone remembers. Here it surfaced because I asked a random question and Claude looked in the right place.
+> *"let's review the objectives of the dashboard"*
 
-The gap wasn't that the feature was missing. The gap was that no one had written it down — and I was the only person on this team.
+So Claude asked:
 
-So I asked Claude to write the user story. This is what it produced:
+> *"What do you want a guardian to walk away knowing after 10 seconds on the dashboard?"*
+
+Not a code question. A product question. And I didn't have a clean answer.
+
+I asked what the dashboard currently showed. Claude went to the code and came back: a 7-day grid hardcoded to the current week, a FK deadline countdown, and a pending approvals count. No week navigation — if you want another week, you click through to the schedule.
+
+That was useful to know. The grid existed because it seemed like a good thing to have. Not because someone had asked what the dashboard was actually for.
+
+I typed:
+
+> *"I think the dashboard should show who is working today, what do I need to do right now and the upcoming reports that I need to fill up. Showing what's coming for the week doesn't seem to add so much value since that's already covered in the schedule."*
+
+Claude's response:
+
+> *"The weekly grid is a calendar feature wearing a dashboard hat."*
+
+That was the moment. One sentence and the story was wrong — not broken, just aimed at the wrong thing. The dashboard needed to be an action centre, not a preview. Who's here today. What needs approving. What reports are overdue.
 
 ---
 
-**US-01b — Forgot / Reset Password**
-*As a guardian or assistant who has forgotten their password, I want to request a reset link by email, so that I can regain access to my account without needing support.*
+Then I described how the reports actually work.
 
-- Given I click "Forgot password?" on the login page, when I enter my registered email and submit, then I see a confirmation message (whether or not the email exists in the system), and a reset link is sent to my inbox
-- Given I click the reset link, when I set a new password (minimum 8 characters, confirmed), then my password is updated and I am redirected to the login page
-- Given the reset link has already been used or has expired, when I click it, then I see a clear error message and I am given an option to request a new one
+Assistants log their shifts as they happen. The system aggregates those into a monthly report. The guardian reviews and approves it, generates a PDF, the assistant signs the printed copy, and it gets mailed to FK by post.
 
-*🔁/✋ Mixed — token validation, redirect, and error states are automated; email delivery must be confirmed manually*
+Claude came back:
+
+> *"This changes US-09 and US-16. Both stories describe a guardian filling in daily hours — but that's not what happens. The guardian's job is to review what the assistant already logged. The stories were written for the wrong actor."*
+
+They were. I'd written them early in the project when I was still figuring out how the workflow would go. The app had moved on. The stories hadn't.
+
+Then Claude asked who does the shift logging — does the assistant have their own login?
+
+> *"The assistants should have their own app where they can view their schedule, clock in and clock out."*
+
+Claude flagged it immediately:
+
+> *"That's a whole missing side of the product. The guardian can't approve what was never logged. Is that v0.1 or v0.2?"*
+
+We haven't answered that yet.
 
 ---
 
-That's a complete user story. Written in about ten seconds. It covers the happy path, two error states, and flags which parts need a human to verify. In a real team this would go through a BA, get reviewed in refinement, and land on a board a week later. Here it went straight into the backlog.
+What started as reviewing a single user story — a 7-day grid on a dashboard — ended with two stories rewritten, a product decision pending, and a clearer picture of what the app actually needs to do.
 
----
-
-We stopped two groups in. The reports section has seven sub-stories just for the PDF output, and we haven't touched it. I interrupted the review to write about the review because I think it's important to share what I learned here.
+That's what a grooming session is supposed to do.
 
 A grooming session works when people come prepared and decisions get made quickly. That's the whole thing. Most of the overhead — the scheduling, the catching up, the circling back — is just the cost of getting people to that state. If the context is already there, you can skip straight to the questions.
 
-What it won't do is replace the person who says I remember a user asking about this six months ago or legal flagged something similar last quarter. That knowledge doesn't live in any document. But maybe, that's a topic that I can write about in the future.
+What it won't do is replace the person who says *I remember a user asking about this six months ago* or *legal flagged something similar last quarter.* That knowledge doesn't live in any document. But for what does — specs, test results, code — it runs the session.
