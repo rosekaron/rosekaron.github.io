@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rose Karon — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #1a1a2e;
+      --accent-soft: #4a4a6a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+      --text: #111827;
+      --tag-bg: #f3f4f6;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    /* ── HEADER ── */
+    .cv-header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    .cv-header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+    }
+
+    .cv-header .title {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--accent-soft);
+      margin-bottom: 1rem;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 1.25rem;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+
+    .contact-line a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .contact-line a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .contact-line span::before {
+      content: "·";
+      margin-right: 1.25rem;
+    }
+    .contact-line span:first-child::before { content: none; }
+
+    /* ── PRINT BUTTON ── */
+    .print-btn {
+      float: right;
+      margin-top: 0.25rem;
+      padding: 0.4rem 1rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      font-family: inherit;
+      color: var(--accent);
+      background: transparent;
+      border: 1.5px solid var(--accent);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      letter-spacing: 0.02em;
+    }
+
+    .print-btn:hover {
+      background: var(--accent);
+      color: white;
+    }
+
+    /* ── SECTIONS ── */
+    section {
+      margin-bottom: 2.25rem;
+    }
+
+    h2 {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-soft);
+      margin-bottom: 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── SUMMARY ── */
+    .summary p {
+      color: #374151;
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
+    /* ── COMPETENCIES ── */
+    .competencies-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      color: #374151;
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.3rem 0.75rem;
+      border-radius: 4px;
+    }
+
+    /* ── EXPERIENCE ── */
+    .job {
+      margin-bottom: 1.75rem;
+    }
+
+    .job:last-child { margin-bottom: 0; }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .job-header h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .job-header .dates {
+      font-size: 0.8rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .job-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .job-meta .company {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--accent-soft);
+    }
+
+    .job-meta .role-badge {
+      font-size: 0.75rem;
+      font-weight: 500;
+      background: #ede9fe;
+      color: #5b21b6;
+      padding: 0.15rem 0.55rem;
+      border-radius: 3px;
+    }
+
+    .job-desc {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 0.6rem;
+      font-style: italic;
+    }
+
+    .job ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .job ul li {
+      font-size: 0.88rem;
+      color: #374151;
+      padding: 0.2rem 0 0.2rem 1.1rem;
+      position: relative;
+      line-height: 1.55;
+    }
+
+    .job ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--accent-soft);
+      font-size: 0.75rem;
+      top: 0.25rem;
+    }
+
+    /* ── EDUCATION ── */
+    .edu-item {
+      margin-bottom: 1rem;
+    }
+
+    .edu-item h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .edu-item .degree {
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+
+    .edu-item .year {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ── LANGUAGES ── */
+    .lang-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .lang-item {
+      background: var(--tag-bg);
+      border-radius: 6px;
+      padding: 0.6rem 0.9rem;
+    }
+
+    .lang-item .lang-name {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .lang-item .lang-level {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    /* ── REFERENCES ── */
+    .references-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .ref-card {
+      background: #f9fafb;
+      border-left: 3px solid var(--accent-soft);
+      border-radius: 0 6px 6px 0;
+      padding: 0.9rem 1rem;
+    }
+
+    .ref-card blockquote {
+      font-size: 0.84rem;
+      color: #374151;
+      font-style: italic;
+      line-height: 1.55;
+      margin-bottom: 0.6rem;
+    }
+
+    .ref-card .ref-author {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--accent-soft);
+    }
+
+    /* ── PRINT STYLES ── */
+    @media print {
+      @page {
+        margin: 1.5cm 1.8cm;
+        size: A4;
+      }
+
+      body {
+        font-size: 11pt;
+        padding: 0;
+        max-width: 100%;
+        color: #000;
+      }
+
+      .print-btn { display: none; }
+
+      .cv-header { border-bottom-color: #000; }
+      .cv-header h1 { color: #000; font-size: 22pt; }
+      .cv-header .title { color: #333; }
+      .contact-line a { color: #333; }
+
+      h2 {
+        color: #333;
+        border-bottom-color: #ccc;
+        page-break-after: avoid;
+      }
+
+      .job { page-break-inside: avoid; }
+      .ref-card { page-break-inside: avoid; }
+
+      .references-grid { grid-template-columns: 1fr 1fr; }
+
+      .tag {
+        background: #eee;
+        color: #222;
+      }
+
+      .role-badge {
+        background: #eee !important;
+        color: #333 !important;
+      }
+
+      .ref-card {
+        background: #f5f5f5;
+        border-left-color: #555;
+      }
+
+      a { text-decoration: none; color: inherit; }
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1.5rem 1rem; }
+      .references-grid { grid-template-columns: 1fr; }
+      .job-header { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="cv-header">
+    <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+    <h1>Rose Karon</h1>
+    <p class="title">Senior Product Manager &amp; Product Owner</p>
+    <div class="contact-line">
+      <span><a href="mailto:rose@karon.se">rose@karon.se</a></span>
+      <span><a href="https://rose.karon.se" target="_blank">rose.karon.se</a></span>
+      <span><a href="https://linkedin.com/in/rosekaron" target="_blank">linkedin.com/in/rosekaron</a></span>
+      <span><a href="https://github.com/rosekaron" target="_blank">github.com/rosekaron</a></span>
+      <span>Stockholm, Sweden</span>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <section class="summary">
+    <h2>Profile</h2>
+    <p>
+      Product leader with 20 years building high-stakes products across gaming, edtech, CRM, and AI — living and working in the Philippines, Singapore, China, and Sweden along the way. Currently leading agentic AI product development at Tribe CRM, shipping two agents to production every two weeks, while independently founding Kalinga, a regulation-aware care management platform for the Nordic personal assistance market.
+      <br><br>
+      Track record includes launching a language-learning platform to 1M+ users, delivering compliance tooling across 50+ regulated markets, and scaling marketing automation for thousands of customers across Europe. Known for cutting through ambiguity, aligning stakeholders across cultures and time zones, and keeping complex delivery on track when the pressure peaks.
+      <br><br>
+      Not just managing AI products — building them.
+    </p>
+  </section>
+
+  <!-- COMPETENCIES -->
+  <section>
+    <h2>Core Competencies</h2>
+    <div class="competencies-grid">
+      <span class="tag">AI Product Development</span>
+      <span class="tag">Agentic Workflow Products</span>
+      <span class="tag">Prompt Engineering for Product Workflows</span>
+      <span class="tag">Product Strategy &amp; Roadmapping</span>
+      <span class="tag">Agile / Scrum Delivery</span>
+      <span class="tag">Stakeholder Management</span>
+      <span class="tag">Cross-functional Team Leadership</span>
+      <span class="tag">CRM &amp; Marketing Automation</span>
+      <span class="tag">B2B SaaS</span>
+      <span class="tag">API &amp; Integration Products</span>
+      <span class="tag">Regulatory Compliance Products</span>
+      <span class="tag">Global Market Launches</span>
+      <span class="tag">OKR Framework Implementation</span>
+    </div>
+  </section>
+
+  <!-- CURRENTLY BUILDING -->
+  <section>
+    <h2>Currently Building</h2>
+    <div class="job">
+      <div class="job-header">
+        <h3>Kalinga</h3>
+        <span class="dates">2026 — Present</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Founder</span>
+      </div>
+      <p class="job-desc">A care management platform for the personal assistance sector — MVP v0.1, built entirely AI-assisted with no development background.</p>
+      <ul>
+        <li>Identified a systemic administrative burden affecting 13,000+ personal assistance recipients in Sweden, with parallel equivalents across Norway, Finland, and Denmark.</li>
+        <li>Running full PM methodology solo: user stories, regression testing, and deployment — entirely AI-assisted.</li>
+        <li>Roadmap includes a dual-interface product — a guardian view for care managers and an assistant view for personal assistants — spanning B2C, B2B (care provider companies), and B2G (government system integrations).</li>
+        <li>Designed to be regulation-aware from day one, enabling expansion across Nordic and European frameworks without rebuilding from scratch.</li>
+        <li>Vision includes AI-powered caregiver guidance — surfacing relevant care content and suggesting activities tailored to individual patients.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Efficy — Tribe CRM</h3>
+        <span class="dates">December 2025 — Present</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Product Manager, AI Agents</span>
+      </div>
+      <p class="job-desc">Tribe CRM is Efficy's native CRM product for European SMEs — 10,000+ customers across Benelux, with an active expansion into the Nordics.</p>
+      <ul>
+        <li>Leading a team of engineers building agentic AI workflows in N8N — shipping two AI agents to production every two weeks, directly in the hands of end users.</li>
+        <li>Own the full delivery cycle: ideation, sprint reviews, demo approval, and release sign-off.</li>
+        <li>Write knowledge base articles, generate usage statistics, and build dashboards to communicate adoption and impact to stakeholders and investors.</li>
+        <li>Conduct customer interviews to surface feedback and continuously shape the agent roadmap.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>APSIS <span style="font-weight:400; color: var(--muted);">— Efficy Group</span></h3>
+        <span class="dates">June 2022 — December 2025</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Product Owner</span>
+      </div>
+      <p class="job-desc">APSIS is a Nordic marketing SaaS platform offering email marketing, marketing automation, and onsite personalisation to 3,000+ customers globally — acquired by Efficy Group in 2021.</p>
+      <ul>
+        <li>Led end-to-end delivery of multiple CRM integrations into core customer systems, coordinating engineering, sales, and customer success across release cycles.</li>
+        <li>Defined and shipped marketing automation features now powering thousands of automated workflows for customers across Europe.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Kambi</h3>
+        <span class="dates">August 2017 — May 2022</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Product Owner</span>
+      </div>
+      <p class="job-desc">Kambi delivers B2B sports-betting technology to licensed operators in 50+ jurisdictions.</p>
+      <ul>
+        <li>Led engineering teams building and maintaining high-performance APIs serving top sportsbook brands across Europe and the US.</li>
+        <li>Drove a full redesign of a key consumer-facing landing page, delivering measurable improvements in engagement and conversion.</li>
+        <li>Designed and shipped back-office tooling to streamline regulatory compliance operations across multiple jurisdictions.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>SchoolApply</h3>
+        <span class="dates">July 2017 — May 2018</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Product Manager</span>
+      </div>
+      <p class="job-desc">SchoolApply connects students worldwide with the right educational institutions.</p>
+      <ul>
+        <li>Built a proof-of-concept platform for managing global school data, significantly reducing manual operational effort.</li>
+        <li>Managed a distributed engineering team to deliver critical MVP features on schedule.</li>
+        <li>Authored and validated business requirements for a multi-agency international application system.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>SWK Industries</h3>
+        <span class="dates">February 2016 — Present</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Co-founder</span>
+      </div>
+      <p class="job-desc">SWK Industries develops event-technology platforms for conferences and expos.</p>
+      <ul>
+        <li>Built and directed a fully remote engineering team, owning product roadmap, sprint planning, and delivery from day one.</li>
+        <li>Authored detailed technical specifications for real-time event-tech integrations across multiple platform partners.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>EF Kids and Teens</h3>
+        <span class="dates">May 2015 — December 2015</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Technical Project Manager</span>
+      </div>
+      <p class="job-desc">EF is a global education leader, partnering with organisations including the Olympic Committee and Clinton Foundation.</p>
+      <ul>
+        <li>Delivered an Adobe Experience Manager (AEM) CMS proof of concept, improving content delivery speed and reducing operational costs.</li>
+        <li>Built ELK Stack monitoring tooling to proactively surface and resolve production issues before they impacted users.</li>
+        <li>Introduced OKRs to align teams around shared, measurable goals — improving focus and cross-team accountability.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>EF Learning Labs — Shanghai, China</h3>
+        <span class="dates">February 2012 — April 2015</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Technical Project Manager / Head of PMO</span>
+      </div>
+      <p class="job-desc">EF Learning Labs designs and builds scalable educational software used by millions of learners globally.</p>
+      <ul>
+        <li>Launched EF's flagship language-learning platform to 1M+ users, including the official volunteer programme for the Rio 2016 Olympic Games.</li>
+        <li>Coordinated five cross-functional teams across multiple time zones to hit aggressive global release milestones.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>MyCube</h3>
+        <span class="dates">May 2009 — January 2012</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Product Manager</span>
+      </div>
+      <p class="job-desc">MyCube offered a digital life management platform for content exchange and monetisation.</p>
+      <ul>
+        <li>Conceptualised and delivered the mobile app MVP in close collaboration with UX designers, from brief to launch.</li>
+        <li>Documented and shipped the web platform MVP, streamlining content-sharing workflows for end users.</li>
+        <li>Designed the back-office member services module, improving operational efficiency across support teams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Laron Pte. Ltd. — Singapore</h3>
+        <span class="dates">January 2009 — May 2009</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Project Manager</span>
+      </div>
+      <p class="job-desc">Laron is an IT consulting firm specialising in online gaming solutions.</p>
+      <ul>
+        <li>Defined and enforced documentation standards, raising quality and consistency across all active projects.</li>
+        <li>Led cross-functional teams to deliver gaming platform enhancements on time and to spec.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Strategem Technologies Pte. Ltd. — Singapore</h3>
+        <span class="dates">April 2006 — December 2008</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Business Systems Analyst</span>
+      </div>
+      <p class="job-desc">Strategem develops software for the MANSION group's global gaming platforms.</p>
+      <ul>
+        <li>Authored business requirements for the MANSION Promoter Programme — a combined affiliate and loyalty platform.</li>
+        <li>Defined product vision and technical specifications for a prepaid-card payment integration.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Bayview Technologies Inc. — Philippines</h3>
+        <span class="dates">April 2005 — March 2006</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Online Marketing Manager</span>
+      </div>
+      <p class="job-desc">Bayview provides BPO services to gaming operators across Asia and Europe.</p>
+      <ul>
+        <li>Led the successful launch of multiple Playtech-powered online casinos in the Philippines.</li>
+        <li>Managed account relationships with Playtech licensees across Asia.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Anxa — Philippines</h3>
+        <span class="dates">September 2001 — March 2005</span>
+      </div>
+      <div class="job-meta">
+        <span class="company">Executive Assistant to the CEO</span>
+      </div>
+      <p class="job-desc">Anxa expanded into Australia, the USA, and China during this period.</p>
+      <ul>
+        <li>Worked alongside the CEO to execute international market launches across three continents.</li>
+        <li>Recruited 30+ staff across design, marketing, sales, IT, and HR — building teams from the ground up.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>University of South Australia</h3>
+      <p class="degree">Master of Business Administration (MBA)</p>
+    </div>
+    <div class="edu-item">
+      <h3>University of the Philippines Los Baños</h3>
+      <p class="degree">BA Communication Arts</p>
+      <p class="year">1997 — 2000</p>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section>
+    <h2>Languages</h2>
+    <div class="lang-grid">
+      <div class="lang-item">
+        <div class="lang-name">Filipino</div>
+        <div class="lang-level">Native speaker</div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-name">English</div>
+        <div class="lang-level">Fluent / Professional</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REFERENCES -->
+  <section>
+    <h2>References</h2>
+    <div class="references-grid">
+      <div class="ref-card">
+        <blockquote>"Rose is the best Technical Project Manager I have ever worked with… under big pressure, she helped us deliver ahead of time. Her optimism and clarity drove the team to success."</blockquote>
+        <div class="ref-author">Tristan Guo — Technical Lead</div>
+      </div>
+      <div class="ref-card">
+        <blockquote>"Rose played a critical role in a major rollout for EF, working across teams, mitigating risks, and delivering a flawless release. Her leadership inspired everyone to exceed expectations."</blockquote>
+        <div class="ref-author">Brian McKay — VP of Product Development</div>
+      </div>
+      <div class="ref-card">
+        <blockquote>"Rose is a well-liked project manager with great attention to detail and energy. Her communication skills keep distributed teams aligned and motivated."</blockquote>
+        <div class="ref-author">Rasmus Rasmusson — VP of Marketing</div>
+      </div>
+      <div class="ref-card">
+        <blockquote>"Rose brings professionalism, positivity, and high performance to every project. She keeps stakeholders informed, focuses on results, and lifts morale even under pressure."</blockquote>
+        <div class="ref-author">Raul Costa — Product and CRM Manager</div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
