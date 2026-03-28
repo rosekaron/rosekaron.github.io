@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rose Karon — CV (Short)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #1a1a2e;
+      --accent-soft: #4a4a6a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --text: #111827;
+      --tag-bg: #f3f4f6;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text);
+      background: #fff;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem;
+    }
+
+    /* ── HEADER ── */
+    .cv-header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: start;
+      gap: 1rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 2px solid var(--accent);
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+
+    .title {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--accent-soft);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.2rem 1rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .contact-line a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .contact-line a:hover { color: var(--accent); }
+
+    .print-btn {
+      padding: 0.35rem 0.9rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      font-family: inherit;
+      color: var(--accent);
+      background: transparent;
+      border: 1.5px solid var(--accent);
+      border-radius: 4px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .print-btn:hover { background: var(--accent); color: white; }
+
+    /* ── SECTIONS ── */
+    section { margin-bottom: 1.5rem; }
+
+    h2 {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-soft);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── SUMMARY ── */
+    .summary p {
+      font-size: 0.88rem;
+      color: #374151;
+      line-height: 1.7;
+    }
+
+    /* ── TAGS ── */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      color: #374151;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.25rem 0.65rem;
+      border-radius: 4px;
+    }
+
+    /* ── JOBS ── */
+    .job { margin-bottom: 1.25rem; }
+    .job:last-child { margin-bottom: 0; }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .job-header h3 {
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .dates {
+      font-size: 0.75rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .job-meta {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--accent-soft);
+      margin-bottom: 0.4rem;
+    }
+
+    .job-desc {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 0.4rem;
+    }
+
+    .job ul { list-style: none; padding: 0; }
+
+    .job ul li {
+      font-size: 0.82rem;
+      color: #374151;
+      padding: 0.15rem 0 0.15rem 1rem;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .job ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--accent-soft);
+      font-size: 0.7rem;
+      top: 0.22rem;
+    }
+
+    /* ── FULL CV LINK ── */
+    .full-cv-note {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .full-cv-note a {
+      color: var(--accent-soft);
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid var(--accent-soft);
+    }
+
+    .full-cv-note a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+    /* ── PRINT ── */
+    @media print {
+      @page { margin: 1.2cm 1.6cm; size: A4; }
+
+      body { font-size: 10.5pt; padding: 0; max-width: 100%; }
+      .print-btn { display: none; }
+      h1 { color: #000; font-size: 20pt; }
+      .title { color: #333; }
+      h2 { color: #333; border-bottom-color: #ccc; page-break-after: avoid; }
+      .job { page-break-inside: avoid; }
+      .tag { background: #eee; color: #222; }
+      .full-cv-note { border-top-color: #ccc; }
+      a { color: inherit; text-decoration: none; }
+    }
+
+    @media (max-width: 560px) {
+      body { padding: 1.5rem 1rem; }
+      .cv-header { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="cv-header">
+    <div>
+      <h1>Rose Karon</h1>
+      <p class="title">Senior Product Leader</p>
+      <div class="contact-line">
+        <span><a href="mailto:rose@karon.se">rose@karon.se</a></span>
+        <span><a href="https://rose.karon.se" target="_blank">rose.karon.se</a></span>
+        <span><a href="https://linkedin.com/in/rosekaron" target="_blank">linkedin.com/in/rosekaron</a></span>
+        <span>Stockholm, Sweden</span>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:0.4rem; align-items:flex-end;">
+      <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+      <a href="/cv/" style="font-size:0.75rem; color:var(--accent-soft); text-decoration:none; border-bottom:1px solid var(--accent-soft);">View full profile →</a>
+    </div>
+  </header>
+
+  <section class="summary">
+    <h2>Profile</h2>
+    <p>Product leader shipping AI agents to production every two weeks at Tribe CRM, while founding Kalinga — a regulation-aware care management platform for the Nordic personal assistance market. Known for cutting through ambiguity, aligning stakeholders, and keeping complex delivery on track. Not just managing AI products — building them.</p>
+  </section>
+
+  <section>
+    <h2>Core Competencies</h2>
+    <div class="tags">
+      <span class="tag">AI Product Development</span>
+      <span class="tag">Agentic Workflow Products</span>
+      <span class="tag">Product Strategy &amp; Roadmapping</span>
+      <span class="tag">Agile / Scrum Delivery</span>
+      <span class="tag">Stakeholder Management</span>
+      <span class="tag">CRM &amp; Marketing Automation</span>
+      <span class="tag">B2B SaaS</span>
+      <span class="tag">API &amp; Integration Products</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Currently Building</h2>
+    <div class="job">
+      <div class="job-header">
+        <h3>Kalinga</h3>
+        <span class="dates">2026 — Present</span>
+      </div>
+      <div class="job-meta">Founder</div>
+      <p class="job-desc">A care management platform for the Nordic personal assistance sector — MVP v0.1, built entirely AI-assisted.</p>
+      <ul>
+        <li>Identified a systemic burden affecting 13,000+ personal assistance recipients in Sweden, with equivalents across Norway, Finland, and Denmark.</li>
+        <li>Roadmap spans B2C, B2B (care providers), and B2G (government integrations) — designed regulation-aware from day one for multi-country deployment.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience in Sweden</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Efficy — Tribe CRM</h3>
+        <span class="dates">December 2025 — Present</span>
+      </div>
+      <div class="job-meta">Product Manager, AI Agents</div>
+      <p class="job-desc">Tribe CRM is Efficy's native CRM product for European SMEs — 10,000+ customers across Benelux, expanding into the Nordics.</p>
+      <ul>
+        <li>Leading a team of engineers building agentic AI workflows in N8N — shipping two AI agents to production every two weeks.</li>
+        <li>Own full delivery: ideation, demo approval, release sign-off, customer interviews, investor presentations, and stakeholder dashboards.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>APSIS — Efficy Group</h3>
+        <span class="dates">June 2022 — December 2025</span>
+      </div>
+      <div class="job-meta">Product Owner</div>
+      <p class="job-desc">APSIS is a Nordic marketing SaaS platform — email marketing, marketing automation, and onsite personalisation — acquired by Efficy Group in 2021.</p>
+      <ul>
+        <li>Led end-to-end delivery of CRM integrations into core customer systems across multiple release cycles.</li>
+        <li>Defined and shipped marketing automation features powering thousands of workflows for enterprise customers across Europe.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Kambi</h3>
+        <span class="dates">August 2017 — May 2022</span>
+      </div>
+      <div class="job-meta">Product Owner</div>
+      <p class="job-desc">Kambi delivers B2B sports-betting technology to licensed operators in 50+ jurisdictions.</p>
+      <ul>
+        <li>Led teams building high-performance APIs for top sportsbook brands across Europe and the US.</li>
+        <li>Shipped back-office compliance tooling across multiple regulated jurisdictions and drove a full landing page redesign improving conversion.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <p class="full-cv-note">
+    Full career profile — 20 years across gaming, edtech, CRM, and AI in the Philippines, Singapore, China, and Sweden — available at <a href="https://rose.karon.se/cv/" target="_blank">rose.karon.se/cv</a>
+  </p>
+
+</body>
+</html>
