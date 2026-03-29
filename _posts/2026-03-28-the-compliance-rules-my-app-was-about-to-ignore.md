@@ -72,4 +72,29 @@ The short version: Claude Code is the only tool where a reference document is ju
 
 The FK rules are now in `docs/fk-rules.md`. The app reads from them when generating reports. When the rules change — and in Swedish labor law, they do — I update one file.
 
+## The thing the reference document can't do
+
+After I created the file, someone asked: does that mean you've built an agent?
+
+No. And the distinction is worth understanding.
+
+A reference document is passive. It sits in the project. Claude reads it. It helps when consulted. But it doesn't know when it's out of date. It won't tell you if FK changes a rule. It won't flag which parts of your app are affected. You have to pick it up.
+
+Here's where it fits in the full picture:
+
+| Tool | What it is | Acts on its own? |
+|------|-----------|-----------------|
+| **Reference document** | A file Claude reads when working | No — only useful when consulted |
+| **Memory** | A standing reminder I follow | No — only triggers in conversation |
+| **Skill** | A reusable action, invoked on demand | No — only runs when called |
+| **Agent** | An autonomous actor with a goal | Yes — monitors, decides, acts without being prompted |
+
+The agent version of this file would monitor Försäkringskassan publications, detect when a rule changes, update the document, and flag which parts of the app are now out of compliance — without being asked.
+
+That's the jump. From something you consult to something that watches.
+
+I haven't built that yet. But having the rules written down, structured, and in the codebase means there's something for an agent to work with when the time comes.
+
 The app was going to ship without any of this. I'm glad the question came up before it did.
+
+*If you're curious where the agent idea goes from here — [that's the next post](/blog/ai-agents-compliance-knowledge-expert/).*
