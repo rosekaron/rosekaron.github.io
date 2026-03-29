@@ -80,4 +80,20 @@ The session put it on paper for the first time.
 
 ---
 
-One session. A feature cut, two stories rewritten, and a gap that had been living in my head finally written down. That's a decent hour's work for a team of one.
+Then came a question that sounds like something a PM asks a senior engineer on the first day of a sprint.
+
+> *"could both these checks be applied as we log the schedule so it's more proactive or would that be overkill for MVP"*
+
+This kind of question usually gets a long answer, a whiteboard, and a follow-up meeting. Claude:
+
+> *"Not overkill — but the two layers need to do different jobs. A block on the schedule as you're mid-entry is disruptive. A warning on the schedule tells you early, while you can still do something. The PDF block stays as a hard stop. Warn when there's time to fix it. Block when it's too late to ignore."*
+
+Decision made. Two layers: amber warning on the schedule when an assistant is approaching their limit, hard block at PDF generation if the limit is actually breached.
+
+What happened there isn't just Claude answering a question. It's Claude holding three things at once — the product goal, the implementation tradeoff, and the user experience — and coming back with a recommendation and a reason. That's not a search or a task execution. That's what a senior engineer does when they've thought about a problem for five minutes.
+
+The difference is that you have to know to ask. "Would this be overkill?" is a question most solo builders never ask, because there's no one to ask it to. Once you have someone to ask, the question becomes obvious.
+
+---
+
+One session. A feature cut, two stories rewritten, a gap surfaced, and an architecture decision made in two exchanges. That's a decent hour's work for a team of one.
