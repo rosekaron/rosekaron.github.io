@@ -21,7 +21,9 @@ For a while I managed it with a spreadsheet. I'd track hours during the month an
 
 What followed each time was the same. A phone call. A patient FK staff member walking me through what needed correcting — time paid for by taxpayers, spent on a mistake I'd made copying numbers from one box to another.
 
-And I'm probably not the only one causing that kind of friction. In Sweden alone, over 13,000 people receive personal assistance allowance — and that's just one country. Norway, Finland, and Denmark run similar systems. The paperwork burden is baked into all of them. Most people hand it off to a provider company to manage. I haven't. Which means the forms land on my desk every month, and occasionally on someone else's who has better things to do.
+And I'm probably not the only one causing that kind of friction. In Sweden alone, around 20,000 people receive personal assistance allowance. Between 60,000 and 100,000 assistants are employed across those arrangements. Around 300 companies exist specifically to handle the administration — the forms, the tracking, the submissions. The market is worth around 30 billion kronor a year.
+
+Norway, Finland, and Denmark run similar systems. The paperwork burden is baked into all of them. Most people hand it off to a provider company to manage. I haven't. Which means the forms land on my desk every month, and occasionally on someone else's who has better things to do.
 
 I'm not a developer. I work a regular job and already use Claude as part of it. One evening after work I opened it and started describing the problem. That's where this starts.
 
