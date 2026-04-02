@@ -43,10 +43,10 @@ This is what the dashboard looked like before:
 ![Current dashboard — 7-day coverage grid]({{ site.baseurl }}/assets/images/dashboard-before.png)
 *The current dashboard: a 7-day coverage grid, FK deadline countdown, and pending approvals.*
 
-And this is what it will look like after we make the changes:
+And this is what it looks like now:
 
-![Proposed dashboard — action centre]({{ site.baseurl }}/assets/images/dashboard-after.png)
-*The proposed dashboard: who's working today, what needs action, upcoming reports. [Coming soon]*
+![Updated dashboard — action centre]({{ site.baseurl }}/assets/images/dashboard-after.png)
+*The updated dashboard: who's working today, what needs action, upcoming reports.*
 
 ---
 
