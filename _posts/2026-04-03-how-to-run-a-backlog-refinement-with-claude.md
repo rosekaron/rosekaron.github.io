@@ -14,7 +14,7 @@ I built the guardian side of this app the wrong way.
 
 I had a rough idea of what it should do, so I opened a code editor and started building. Features appeared because I was curious about them — a self-booking system, activity tags on entries, a whole Hours tab in the nav that I barely opened once it was done. The sprint planning session I wrote about [earlier](https://rosekaron.github.io/blog/sprint-planning-with-claude/) was where I started catching the damage. A feature cut, two stories rewritten against the wrong actor, a whole side of the product that existed only in my head.
 
-There's a distinction in product development between discovery and delivery. Discovery is figuring out what to build — validating that it's the right thing before a line of code gets written. Delivery is building it. Most teams do both. I'd been skipping straight to delivery every time.
+There's a distinction in product development between discovery and delivery. Discovery is figuring out what to build — validating that it's the right thing before a line of code gets written. Delivery is building it.
 
 When it came time to build the assistant view — the app my assistants use to clock in and out — I wanted to do discovery first. No prototyping until I knew what I was building. No stories written from memory.
 
