@@ -3,49 +3,36 @@ layout: post
 title: "Why I Use a Framework for AI Coding Now"
 date: 2026-04-24
 permalink: /blog/ai-coding-framework-multi-agent-workflow/
-excerpt: "A single AI agent can write malformed output and not notice. An AI coding framework puts a second agent in the loop to catch it before you act."
+excerpt: "A single AI agent can't verify its own plans. A framework puts a second pair of eyes on the quiet drift you'd miss on a skim."
 tags: [vibe-coding, claude-code, workflow, ai]
 ---
 
-The verification agent was meant to check whether my plans covered the right requirements. Instead, it flagged something else. Three plan files ended in stray XML:
+The verification agent flagged four categories of drift before I was allowed to execute anything.
 
-```
-</output>
-</content>
-</invoke>
-```
+1. **Requirement coverage.** All three requirement IDs — DATA-01, DATA-02, DATA-03 — had to be mapped to at least one plan. They were.
+2. **Secret hygiene.** No real bank digits, no real Swedish personal numbers, no real addresses embedded in plan bodies. Real values only flow in at runtime; the plans themselves are committed to git, and I don't want those values in git. The checker verified nothing leaked.
+3. **Decision fidelity.** Seven locked decisions from the context doc — D-01 through D-07 — had to appear somewhere in the task list. They did.
+4. **Cosmetic noise.** Three plan files ended in stray tool-call XML the planner had leaked into its own output. Not breaking — the executor would have ignored it. Noisy.
 
-Tool-call syntax. The kind of tag a Claude agent uses internally to wrap its tool invocations. It had somehow leaked out of the wrapper and into the files the agent was writing. The planner agent — a separate Claude agent upstream — had bled its own scaffolding into its own output and never noticed.
+The first three would have silently broken something if missed. The fourth was the only one I'd have caught on a skim — and it's the least important of the four.
 
-I didn't notice either. I was about to run the execution step.
+## What the planner couldn't see about itself
 
-## What actually happened
+I'm building a Swedish personal-assistance portal — the kind of app a family running a care arrangement uses to handle schedules, time reports, and the monthly forms for Försäkringskassan. For this phase, I was planning a data-entry step: walk through the app, enter real information for the first time, then generate three PDFs and check each one for placeholder strings.
 
-I'm building a Swedish personal-assistance portal — the kind of app a family running a care arrangement uses to handle schedules, time reports, and the monthly forms for Försäkringskassan. For this phase, the work is data entry and PDF verification, not new code. The job: walk through the existing app, enter real information for the first time, and check that three generated PDFs (a Försäkringskassan form, a tax form, and a salary slip) contain zero placeholder strings.
+The planner agent drafted the phase into three `PLAN.md` files. The checker agent — a separate Claude instance with a different prompt and a fresh context — read those files and ran through its verification checklist.
 
-To plan that, I used GSD — "Get Shit Done" — a workflow framework for Claude Code. The `/gsd-plan-phase` command runs a small pipeline. A planner agent drafts the work into three `PLAN.md` files. Then a second agent — the checker — reads what the planner wrote and looks for gaps.
+Three of the four things the checker flagged were invisible from inside the planner's view. The planner knew what it had written. It couldn't tell whether what it had written still matched the requirement document it had never re-read in full, or whether seven specific decisions from the context doc had survived translation into tasks. It couldn't spot its own stray closing tags — those tags are scaffolding it uses every second.
 
-The checker did its job. It ran through requirement coverage, decision coverage, threat-model checks, anti-shallow-execution rules. And it also flagged six advisory observations — non-blocking, but worth naming. The first one on its list:
-
-> *"Stray tool-call artefact at file tails. All three plans end with leaked `</output></content></invoke>` lines after the final `<output>` section. Not structurally breaking, but noise."*
-
-Thirty seconds of cleanup. Then the plans were safe to execute.
-
-## An agent doesn't know where its own output ends
-
-That moment is the reason I run a framework now.
-
-A single agent writing to a file doesn't have a clear sense of where "the message I'm sending to the user" stops and "the artefact I'm writing to disk" begins. In isolation, it can produce output that looks perfectly confident and is silently malformed. The agent won't tell you. It can't — the only thing that can tell you is something *outside* the agent that re-reads what came out.
-
-That's what the checker is. It's not smarter than the planner. It just has a different job and a different view of the same file. One agent writes; a second one verifies. The second one catches things the first can't see about itself, because it doesn't carry the same context fog.
-
-This is not a Claude insight. It's a team insight.
+That's not a Claude failure. It's a context-window failure that any single-agent setup will have. The planner's job was to plan. Checking that the plan matches the inputs is a different job, and it needs different eyes.
 
 ## The PM version of the same idea
 
-In product, we've known this forever. Nobody reviews their own pull request. Nobody writes acceptance criteria and also decides whether they passed. Sprint gates don't exist because engineers can't be trusted — they exist because fresh eyes catch different things. Same code, different reader, different failure modes surface.
+In product, we've known this forever. Nobody reviews their own pull request. Nobody writes acceptance criteria and also decides whether they passed. Sprint gates don't exist because engineers can't be trusted — they exist because fresh eyes catch different things. Same artefact, different reader, different failure modes surface.
 
-I'm not inventing anything by putting a checker after a planner. I'm just applying sprint gates to AI agents. What was surprising was how *necessary* it turned out to be. The planner wasn't doing a bad job — the plans were genuinely good. It just couldn't see its own leaked tags. That's the whole story. The thing it couldn't see was completely invisible from the inside.
+I'm not inventing anything by putting a checker after a planner. I'm just applying sprint gates to AI agents. What was surprising was how much it turned out to catch — and how boring most of the catches were. Not dramatic tag leaks. Coverage gaps, drifted decisions, quiet mismatches between the plan and the document it was supposed to be implementing.
+
+Nobody gets paid to catch boring things. That's exactly why agents don't catch them without being told to.
 
 ## What I used to do
 
@@ -59,7 +46,7 @@ That reset is doing more work than it sounds like. It's the same reason [I now w
 
 ## Why GSD specifically
 
-GSD is the framework I've landed on because it's built for Claude Code, which is what I use. It names the stages I was already trying to impose on myself manually — discuss, research, plan, verify, execute, verify again — and gives each one a dedicated agent with a focused prompt. The handoffs are files I can read. If the checker flags something, I can see exactly what the planner wrote and decide whether to fix it, overrule it, or replan.
+GSD — Get Shit Done — is the framework I've landed on because it's built for Claude Code, which is what I use. It names the stages I was already trying to impose on myself manually — discuss, research, plan, verify, execute, verify again — and gives each one a dedicated agent with a focused prompt. The handoffs are files I can read. If the checker flags a coverage gap, I can see exactly which requirement is missing and which plan should have covered it.
 
 I didn't build it. I just stopped pretending I didn't need it.
 
@@ -67,6 +54,6 @@ I didn't build it. I just stopped pretending I didn't need it.
 
 **Put one agent between you and action.** If you're using Claude Code and you trust its output straight into commits, don't. Add a second step — even manually — where a fresh Claude reads what the first one produced before you act on it. The specific framework doesn't matter as much as the habit.
 
-**Read the checker's advisories, not just its blocks.** The blocking issues are the obvious win. The advisory ones are where the weird stuff hides — in my case, three files ending in HTML that shouldn't have been there, which nobody would have noticed until the executor silently ignored them.
+**Make the checker look at the boring things.** Requirement coverage. Secret hygiene. Whether the plan actually addresses the decisions in the context doc. Not whether the plan "looks right" — that's the thing the planner already thought it did.
 
-**Stop being impressed that an agent finished.** Finishing is easy. Finishing cleanly is the thing you're paying for.
+**Don't be impressed by the dramatic catches.** The tag leaks are fun to spot. The coverage gap is the one that would have hurt.
