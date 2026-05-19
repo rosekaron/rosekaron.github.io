@@ -12,3 +12,4 @@
 - [2026-05-08] Claude improvised past a broken tool: when the tribecrm-local MCP was unreachable, Claude reverse-engineered real Tribe CRM entity names from 78 production n8n workflows — and came back with better discovery data than the original plan would have given.
 - [2026-05-18] Plan decisions that age badly: I locked an all-mocked scope cut in Phase 1, then overrode it in Phase 2 discussion — what that reveals about how AI-assisted planning choices expire when you actually face implementation.
 - [2026-05-18] Decisions vs tasks: the AI plan checker caught a locked product decision (show error page on fetch fail) that had zero implementing tasks — the gap between 'we decided X' and 'we built X'
+- [2026-05-19] When your code lives in a UI you can't git-diff: planning an n8n project with GSD and discovering that human-action checkpoints aren't a workaround — they're the verification architecture.
