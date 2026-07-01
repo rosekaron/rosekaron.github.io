@@ -13,3 +13,4 @@
 - [2026-05-18] Plan decisions that age badly: I locked an all-mocked scope cut in Phase 1, then overrode it in Phase 2 discussion — what that reveals about how AI-assisted planning choices expire when you actually face implementation.
 - [2026-05-18] Decisions vs tasks: the AI plan checker caught a locked product decision (show error page on fetch fail) that had zero implementing tasks — the gap between 'we decided X' and 'we built X'
 - [2026-05-19] When your code lives in a UI you can't git-diff: planning an n8n project with GSD and discovering that human-action checkpoints aren't a workaround — they're the verification architecture.
+- [2026-07-01] Research agents, not vibe coding: before the first n8n node, four parallel agents found GitHub #17321 (getWorkflowStaticData won't-fix) and changed the architecture — why seven minutes of discovery beats three weeks of silent failure.
